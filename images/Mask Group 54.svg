@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="27" viewBox="0 0 27 27">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_195" data-name="Rectangle 195" width="27" height="27" transform="translate(2251 9636)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_54" data-name="Mask Group 54" transform="translate(-2251 -9636)" clip-path="url(#clip-path)">
+    <g id="behance-network" transform="translate(2251 9641.051)">
+      <path id="Path_39" data-name="Path 39" d="M14,16.327a4.018,4.018,0,0,0-3.051-4.218,3.568,3.568,0,0,0,2.282-3.48c0-3.319-2.482-4.129-5.345-4.129H0V21.166H8.1C11.142,21.166,14,19.713,14,16.327ZM3.675,7.345H7.123c1.326,0,2.519.371,2.519,1.9,0,1.415-.928,1.985-2.242,1.985H3.675Zm0,10.99v-4.59H7.679c1.618,0,2.641.672,2.641,2.38,0,1.683-1.222,2.21-2.717,2.21Z" transform="translate(0 -4.5)"/>
+      <path id="Path_40" data-name="Path 40" d="M19.519,20.985a5.4,5.4,0,0,0,5.665-4.059H22.249A2.754,2.754,0,0,1,19.622,18.5a2.733,2.733,0,0,1-2.972-3.071h8.732c.276-3.87-1.879-7.167-5.864-7.167a6.072,6.072,0,0,0-6.194,6.386C13.324,18.407,15.7,20.985,19.519,20.985Zm-.1-10.218a2.474,2.474,0,0,1,2.65,2.578h-5.41a2.6,2.6,0,0,1,2.76-2.578Z" transform="translate(1.76 -4.003)"/>
+      <path id="Path_41" data-name="Path 41" d="M15.667,5.273h6.779V6.915H15.667Z" transform="translate(2.07 -4.398)"/>
+    </g>
+  </g>
+</svg>
