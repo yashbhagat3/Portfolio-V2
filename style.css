@@ -412,6 +412,7 @@ a{
             border-radius: 9px;
             padding: 14px 15px;
             font-size: 20px;
+            outline:0 !important;
         }
         .resume{
             border: 2px solid #8836FF;
@@ -629,4 +630,5 @@ a{
     }
     button:hover{
       box-shadow: 0px 10px 20px rgba(143, 76, 165, 0.5);
+      outline:0 !important;
     }
