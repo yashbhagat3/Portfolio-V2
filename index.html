@@ -13,9 +13,12 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#da48ff">
     <meta name="msapplication-TileColor" content="#ffe9e9">
     <meta name="theme-color" content="#ffe9e9">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-
+    <div id="loader">
+        <div class="nb-spinner"></div>
+    </div>
     <div id="phone">
         <div class="head">
             <div id="name" style="display: inline-block;">
@@ -644,6 +647,9 @@
         </div>
     </div>
     <script>
+        $(window).on("load",function(){
+            $("#loader").fadeOut("slow");
+        })
         function openNav() {
             document.getElementById("fade").style.display = "block";
             document.getElementById("cross").style.display = "block";
