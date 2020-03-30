@@ -42,7 +42,7 @@ a{
         }
         .main{
             position: absolute;
-            top: 50px;
+            top: 0px;
             margin : 0px;
             width: 100%;
             overflow: auto;
@@ -50,6 +50,7 @@ a{
         }
         #illustration{
             width: 100%;
+            padding-top: 50px;
         }
         #intro{
             margin : 0px 5%;
@@ -76,7 +77,7 @@ a{
         button{
             border-radius: 5px;
             padding:15px;
-            font-size: 110%;
+            font-size: 115%;
         }
         .resume{
             border: 2px solid #8836FF;
@@ -140,8 +141,8 @@ a{
             width:100%;
             padding-top: 75%;
             border-radius: 5px;
-            background-size: 100%;
             background: url('images/Image 6.png');
+            background-size: 100%;
         }
         .desc-dribble{
             text-align: center;
@@ -288,20 +289,26 @@ a{
         #insta{
           position: relative;
           bottom: 0;
-          right: 30px;
+          right: 0px;
           height: 20%;
           text-align: right;
           vertical-align: middle;
           line-height: 22px;
-          font-size: 16px;
+          font-size: 13px;
           color: #8836FF;
         }
         #art-nav{
           padding: 0;
-          margin-top: 10%;
+          margin-top: 6%;
+          margin-bottom: 0;
         }
         .art-item{
-          margin: 5% auto;
+          margin: 10% auto;
+          margin-top: 0;
+          font-size: 16px;
+        }
+        #dribble{
+            padding-top: 50px;
         }
 
     }
@@ -337,22 +344,26 @@ a{
         }
         #art-nav{
           padding: 0;
-          margin-top: 10%;
+          margin-top: 0;
+          height: 75%;
         }
         #insta{
-          position: relative;
-          bottom: 0;
-          right: 30px;
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
           height: 30px;
+          width: 100%;
           text-align: right;
           vertical-align: middle;
           line-height: 22px;
-          font-size: 16px;
+          font-size: 19px;
           color: #8836FF;
         }
         .art-item{
           margin: 10% auto;
+          margin-top: 0;
           display: block;
+          font-size: 24px;
         }
         #head {
             position: fixed;
@@ -613,9 +624,10 @@ a{
         #checkout{
           position: absolute;
           top: 0;
-          right: 26px;
+          right: 30px;
           margin-top: 5px;
           display: block;
+          text-decoration: underline;
         }
     }
     a{
@@ -624,7 +636,7 @@ a{
         color: inherit;
     }
     .nav-item:hover{
-        color: black;
+        color: #8836FF;
         opacity: 1;
         font-weight: bold;
     }
@@ -632,3 +644,25 @@ a{
       box-shadow: 0px 10px 20px rgba(143, 76, 165, 0.5);
       outline:0 !important;
     }
+    .art-container input  {
+        display: none;
+    }
+    .art-container input ~ .checkmark{
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .art-container input:checked ~ .checkmark {
+        color: #8836FF;
+    }
+    .art-container:hover input ~ .checkmark {
+        color: #8836FF;
+    }
+    .nav-container input {
+        display: none;
+    }
+    .nav-container input:checked ~ .checkmark {
+        color: #8836FF;
+    }
+    .nav-container:hover input ~ .checkmark {
+        color: #8836FF;
+        font-weight: 600;
+    }  
