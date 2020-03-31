@@ -311,8 +311,17 @@ a{
             padding-top: 50px;
         }
         .nb-spinner {
-            height:150px;
-            width: 150px;
+            height: 200px;
+            width: 200px;
+        }
+        #loader-img{
+            width:100px;
+            margin-bottom: 10%;
+        }
+        .loader-content{
+            font-weight: 600;
+            font-size: 16px;
+            padding-bottom: 15px;
         }
 
     }
@@ -558,7 +567,7 @@ a{
         }
         .desc-art{
             text-align: center;
-            margin-top: 5px;
+            margin-top: 5px;15px
         }
         #hi{
             padding-top: 35px;
@@ -637,6 +646,15 @@ a{
             height: 350px;
             width: 350px;
         }
+        #loader-img{
+            width: 200px;
+            padding-bottom: 10%;
+        }
+        .loader-content{
+            font-size: 28px;
+            font-weight: 600;
+            padding-bottom: 35px;
+        }
     }
     a{
         font: inherit;
@@ -683,6 +701,13 @@ a{
         display: flex;
         justify-content: center;
         align-items: center;
+        position: fixed;
+    }
+    .loader-content{
+        display: block;
+        position: absolute;
+        color: #8836FF;
+        text-align: center;
     }
 
       
@@ -696,8 +721,6 @@ a{
         -webkit-animation: 1s spin linear infinite;
         animation: 1s spin linear infinite;
       }
-      
-      
       
       
       @-webkit-keyframes rotate {
