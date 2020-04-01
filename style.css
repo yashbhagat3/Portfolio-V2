@@ -78,6 +78,7 @@ a{
             border-radius: 5px;
             padding:15px;
             font-size: 115%;
+            outline:0 !important;
         }
         .resume{
             border: 2px solid #8836FF;
@@ -693,7 +694,7 @@ a{
         font-weight: 600;
     }  
     #loader{
-        height: 100vh;
+        height: -webkit-fill-available;;
         width: 100%;
         background-color: white;
         position: absolute;
