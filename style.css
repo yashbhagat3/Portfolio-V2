@@ -312,17 +312,17 @@ a{
             padding-top: 50px;
         }
         .nb-spinner {
-            height: 200px;
-            width: 200px;
+            height: 150px;
+            width: 150px;
         }
         #loader-img{
-            width:100px;
+            width:75px;
             margin-bottom: 10%;
         }
         .loader-content{
             font-weight: 600;
-            font-size: 16px;
-            padding-bottom: 15px;
+            font-size: 14px;
+            padding-bottom: 10px;
         }
 
     }
@@ -644,17 +644,17 @@ a{
           text-decoration: underline;
         }
         .nb-spinner {
-            height: 350px;
-            width: 350px;
+            height: 250px;
+            width: 250px;
         }
         #loader-img{
-            width: 200px;
+            width: 150px;
             padding-bottom: 10%;
         }
         .loader-content{
-            font-size: 28px;
+            font-size: 22px;
             font-weight: 600;
-            padding-bottom: 35px;
+            padding-bottom: 20px;
         }
     }
     a{
@@ -808,6 +808,9 @@ a{
           border-width: 15px;
         }
       }
+      a{
+        -webkit-tap-highlight-color: transparent;
+        }
       
      
 
