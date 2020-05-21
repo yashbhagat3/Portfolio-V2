@@ -655,17 +655,18 @@ a{
           text-decoration: underline;
         }
         .nb-spinner {
-            height: 250px;
-            width: 250px;
+            height: 100px;
+            width: 100px;
         }
         #loader-img{
-            width: 150px;
-            padding-bottom: 10%;
+            width: 48px;
+            padding-bottom: 0%;
+            padding-bottom: 0%;
         }
         .loader-content{
             font-size: 22px;
             font-weight: 600;
-            padding-bottom: 20px;
+            padding-bottom: 0px;
         }
         .ss-img{
             width: 700px;
