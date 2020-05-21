@@ -55,7 +55,7 @@ a{
             padding-top: 50px;
         }
         #intro{
-            margin : 150px 0px 30px 0px;
+            margin : 130px 0px 30px 0px;
             font-size : 26px;
             color: black;
         }
@@ -212,6 +212,7 @@ a{
             top: 13px;
             right: 0;
             height: 100%;
+            font-weight: 700;
         }
         .follow-3{
             grid-template-columns: repeat(4,1fr);
@@ -364,6 +365,7 @@ a{
           font-weight: 700;
         }
         #insta{
+            border: 2px solid rgb(223, 223, 223) ;
             margin: auto;
             display: inline-block;
             position: absolute;
@@ -384,7 +386,7 @@ a{
             width: 100%;
             height: 80px;
             vertical-align: middle;
-            transition: 0.5s;
+            transition: 0.3s;
         }
         #name{
             margin: auto 8%;
@@ -410,7 +412,7 @@ a{
         #intro{
             font-size : 40px;
             color: black;
-            margin-top: 150px;
+            margin-top: 130px;
             margin-bottom: 30px;
         }
         #designation{
@@ -426,7 +428,7 @@ a{
         }
         .buttons{
             grid-template-columns: 1fr 1fr;
-            margin: 0px 0px 130px 0px;
+            margin: 0px 0px 80px 0px;
             grid-column-gap: 5%;
             width: 70%;
             max-width: 500px;
@@ -528,7 +530,7 @@ a{
             margin-top: 40px;
         }
         .dribbble-img{
-            border: 2px solid rgb(228, 228, 228) ;
+            border: 2px solid rgb(223, 223, 223) ;
             width:100%;
             padding-top: 75%;
             border-radius: 10px;
@@ -620,7 +622,8 @@ a{
         }
         .nav-item{
             font-size: 14px;
-            font-weight: normal;
+            font-weight: 700;
+            color: #888888;
         }
         #work1{
             padding-top: 150px;
@@ -718,7 +721,7 @@ a{
     .nav-item:hover{
         color: #8836FF;
         opacity: 1;
-        font-weight: bold;
+        font-weight: 700;
     }
     button:hover{
       box-shadow: 0px 10px 20px rgba(143, 76, 165, 0.5);
