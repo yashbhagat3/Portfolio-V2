@@ -295,7 +295,7 @@ a{
             margin: auto;
             display: inline-block;
             position: absolute;
-            right: 15%;
+            right: 10%;
             padding: 14px 25px;
         }
         #art-nav{
@@ -369,7 +369,7 @@ a{
             margin: auto;
             display: inline-block;
             position: absolute;
-            right: 15%;
+            right: 10%;
             padding: 14px 25px;
         }
         .art-item{
@@ -457,7 +457,7 @@ a{
             width: 100%;
         }
         .follow{
-            margin: 0% 0% 130px 0%;
+            margin: 0% 0% 80px 0%;
             grid-template-columns: repeat(4,1fr);
             width: 300px;
             height: 40px;
@@ -514,14 +514,14 @@ a{
             margin: auto;
             display: inline-block;
             position: absolute;
-            right: 15%;
+            right: 10%;
             padding: 14px 25px;
         }
         #button-dribbble{
             margin: auto;
             display: inline-block;
             position: absolute;
-            right: 15%;
+            right: 10%;
             padding: 14px 25px;
         }
         .c-dribbble{
@@ -596,8 +596,8 @@ a{
             max-width: 300px;
         }
         #madeby{
-            margin-right: 15%;
-            margin-left: 15%;
+            margin-right: 10%;
+            margin-left: 10%;
             margin-top: 30px;
             padding-top: 0px;
             padding-bottom: 0px;
@@ -605,12 +605,12 @@ a{
             font-size: 18px;
             border-top: 2px white solid;
             position: absolute;
-            width: 70%;
+            width: 80%;
             bottom: 0;
         }
         .foot{
             grid-template-columns: 7fr 3fr;
-            margin: auto 15%;
+            margin: auto 10%;
             padding-top: 10px;
         }
         .new{
@@ -627,14 +627,14 @@ a{
         }
         #work1{
             padding-top: 150px;
-            padding-left: 15%;
-            padding-right: 15%;
+            padding-left: 10%;
+            padding-right: 10%;
             margin-bottom: 150px;
         }
         #art1{
             padding-top: 150px;
-            padding-left: 15%;
-            padding-right: 15%;
+            padding-left: 10%;
+            padding-right: 10%;
         }
         #home1{
             padding-top: 0px;
@@ -642,8 +642,8 @@ a{
         #dribbble1{
             padding-top: 150px;
             padding-bottom: 150px;
-            padding-left: 15%;
-            padding-right: 15%;
+            padding-left: 10%;
+            padding-right: 10%;
             background-color: #E7EBED;
         }
         #fm{
@@ -703,10 +703,11 @@ a{
         }
         .new{
             background-color: #E7EBED;
-            padding: 80px 15% 0px 15%;
+            padding: 0px 10% 0px 10%;
             background-image: url("images/Simple Mockup Free Scene.png");
             background-repeat: no-repeat;
             background-position: right;
+            background-size: 1000px;
 
         }
     }
