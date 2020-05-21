@@ -17,11 +17,32 @@
     <meta name="msapplication-TileColor" content="#ffe9e9">
     <meta name="theme-color" content="#ffe9e9">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="java-script.js"></script>
+
 </head>
 <body>
     <div id="loader">
         <div class="nb-spinner"></div>
         <div class="loader-content"><img src="android-chrome-192x192.png" id="loader-img"><br>YASH BHAGAT</div>
+    </div>
+    <div id="slide-show">
+        <div id="prev" onclick="prev()"><img src="images/arrow_back_ios-white-18dp.svg" width=40px></div>
+        <div class="art-all-ss">
+            <div class="ss-img">
+            </div>
+            <div class="ss-desc">Title</div>
+        </div>
+        <div class="art-all-ss" style="display: block;">
+            <div class="ss-img">
+            </div>
+            <div class="ss-desc">Title-2</div>
+        </div>
+        <div class="art-all-ss">
+            <div class="ss-img">
+            </div>
+            <div class="ss-desc">Title-3</div>
+        </div>
+        <div id="next" onclick="next()"><img src="images/arrow_forward_ios-white-18dp.svg" width=40px></div>
     </div>
     <div id="phone">
         <div class="head">
@@ -86,7 +107,7 @@
                     <button class="grid-item getintouch solid">Get in touch</button>
                 </a>
                 <a href="#resume" class="grid-item">
-                    <button class="grid-item resume blank">Resume</button>
+                    <button class="grid-item transparent blank">Resume</button>
                 </a>
             </div>
             <div class="grid-container follow">
@@ -367,7 +388,7 @@
                             <button class="getintouch solid">Get in touch</button>
                         </a>
                         <a href="#resume" target="_blank" class="grid-item">
-                            <button class="resume blank">Resume</button>
+                            <button class="transparent blank">Resume</button>
                         </a>
                     </div>
                     <div class="grid-container follow">
@@ -385,14 +406,22 @@
                         </a>
                     </div>
                 </div>
+                <!--
                 <div id="illustration" class="grid-item">
-                    <img src="images/Image 15.png" width=100%>
+                    <img src="images/Simple Mockup Free Scene.png" width=100%>
                 </div>
+            -->
             </div>
             <div id="work1">
                 <div class="title">
                     Work.
+                    
                 </div>
+                <a target="_blank" href="https://www.behance.net/yashbhagatd053/">
+                    <button id="behance" class="transparent">
+                        See all work
+                    </button>
+                </a>
                 <div class="grid-container c-work">
                     <div class="grid-item work">
                         <div class="work-img">
@@ -453,16 +482,18 @@
 
                     </div>
                 </div>
-                <a target="_blank" href="https://www.behance.net/yashbhagatd053/">
-                    <button id="behance" class="solid">
-                        Follow me on Behance
-                    </button>
-                </a>
+                
             </div>
             <div id="dribble1">
                 <div class="title">
                     Dribbble.
+                    
                 </div>
+                <a target="_blank" href="https://dribbble.com/yashbhagat">
+                    <button id="button-dribble" class="transparent">
+                        Checkout Dribbble
+                    </button>
+                </a>
                 <div class="grid-container c-dribble">
                     <div class="grid-item dribble">
                         <div class="dribble-img">
@@ -528,16 +559,16 @@
                         </div>
                     </div>
                 </div>
-                <a target="_blank" href="https://dribbble.com/yashbhagat">
-                    <button id="button-dribble" class="solid">
-                        Follow me on Dribbble
-                    </button>
-                </a>
             </div>
             <div id="art1">
                 <div class="title">
                     Art.
                 </div>
+                <a target="_blank" href="https://dribbble.com/yashbhagat">
+                    <button id="insta" class="transparent">
+                        Checkout Instagram
+                    </button>
+                </a>
                 <div class="grid-container c-art">
                     <div class=" art" style="position: relative; margin-top: 10%;">
                     <div style="position: absolute; height: max-content;">
@@ -568,9 +599,6 @@
                           </li>
                       </ul>
                     </div>
-                      <div id="insta">
-                          <a href="https://www.instagram.com/yash.bhagat3/" target="_blank"><p id="checkout">Checkout more on  </p>  <img src="images/Mask Group 52.svg" align="middle" height="26px"></a>
-                      </div>
                     </div>
                     <div class="grid-item art all">
                         <a href="#" target="_blank">
@@ -650,213 +678,5 @@
             </div>
         </div>
     </div>
-    <script>
-        $(window).on("load",function(){
-            $("#loader").fadeOut("slow");
-        })
-        function openNav() {
-            document.getElementById("fade").style.display = "block";
-            document.getElementById("cross").style.display = "block";
-            document.getElementById("Hamburger").style.width = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("fade").style.display = "none";
-            document.getElementById("cross").style.display = "none";
-            document.getElementById("Hamburger").style.width = "0px";
-        }
-        // function inactive(){
-        //     document.getElementById("work-nav1").style.color="black";
-        //     document.getElementById("work-nav2").style.color="black";
-        //     document.getElementById("home-nav1").style.color="black";
-        //     document.getElementById("home-nav2").style.color="black";
-        //     document.getElementById("art-nav1").style.color="black";
-        //     document.getElementById("art-nav2").style.color="black";
-        //     document.getElementById("contact-nav1").style.color="black";
-        //     document.getElementById("contact-nav2").style.color="black";
-        // }
-        // function clickwork()
-        // {
-        //     inactive();
-        //     document.getElementById("work-nav1").style.color="#8836FF";
-        //     document.getElementById("work-nav2").style.color="#8836FF";
-        //     closeNav();
-        // }
-        // function clickhome()
-        // {
-        //     inactive();
-        //     document.getElementById("home-nav1").style.color="#8836FF";
-        //     document.getElementById("home-nav2").style.color="#8836FF";
-        //     closeNav();
-        // }
-        // function clickart()
-        // {
-        //     inactive();
-        //     document.getElementById("art-nav1").style.color="#8836FF";
-        //     document.getElementById("art-nav2").style.color="#8836FF";
-        //     closeNav()
-        // }
-        // function clickcontact()
-        // {
-        //     inactive();
-        //     document.getElementById("contact-nav1").style.color="#8836FF";
-        //     document.getElementById("contact-nav2").style.color="#8836FF";
-        //     closeNav();
-        // }
-        function all1()
-        {
-            let myElements = document.querySelectorAll(".sketches");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".compositions");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".illustration");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".all");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "block";
-            }
-            //alert("YAy");
-        }
-        function illustration()
-        {
-            let myElements = document.querySelectorAll(".sketches");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".compositions");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".all");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".illustration");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "block";
-            }
-            //alert("Done");
-        }
-        function composition()
-        {
-            let myElements = document.querySelectorAll(".sketches");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".all");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".illustration");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".compositions");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "block";
-            }
-            //alert("DONE");
-        }
-        function sketches()
-        {
-            let myElements = document.querySelectorAll(".all");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".compositions");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".illustration");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "none";
-            }
-            myElements = document.querySelectorAll(".sketches");
-
-            for (let i = 0; i < myElements.length; i++) {
-                myElements[i].style.display = "block";
-            }
-            //alert("Yay");
-        }
-        function offset(el) {
-            var rect = el.getBoundingClientRect(),
-            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
-        }
-
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-          if (prevScrollpos > currentScrollPos) {
-            document.getElementById("head").style.top = "0";
-          } else {
-            document.getElementById("head").style.top = "-100px";
-          }
-          prevScrollpos = currentScrollPos;
-          if(currentScrollPos!=0)
-          {
-            document.getElementById("head").style.background="white";
-          }
-          else {
-            document.getElementById("head").style.background="#FFE9E9";
-          }
-          var art=document.getElementById("art1");
-          var work=document.getElementById("work1");
-          var contact=document.getElementById("footer1");
-          var artoff=offset(art);
-          var workoff=offset(work);
-          var footeroff=offset(contact);
-          if(currentScrollPos>=footeroff.top)
-          {
-            document.getElementById("art-nav2").checked=false;
-            document.getElementById("work-nav2").checked=false;
-            document.getElementById("home-nav2").checked=false;
-            document.getElementById("contact-nav2").checked=true;
-          }
-          if(currentScrollPos>=artoff.top)
-          {
-            document.getElementById("art-nav2").checked=true;
-            document.getElementById("work-nav2").checked=false;
-            document.getElementById("home-nav2").checked=false;
-            document.getElementById("contact-nav2").checked=false;
-          }
-          else if(currentScrollPos>=workoff.top)
-          {
-            document.getElementById("art-nav2").checked=false;
-            document.getElementById("work-nav2").checked=true;
-            document.getElementById("home-nav2").checked=false;
-            document.getElementById("contact-nav2").checked=false;
-          }
-          else 
-          {
-            document.getElementById("art-nav2").checked=false;
-            document.getElementById("work-nav2").checked=false;
-            document.getElementById("home-nav2").checked=true;
-            document.getElementById("contact-nav2").checked=false;
-          }
-        }
-    </script>
 </body>
 </html>

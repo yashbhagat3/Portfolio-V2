@@ -17,7 +17,7 @@ a{
     @media screen and (max-width: 900px) {
         body {
             margin: 0;
-            background-color: #FFE9E9;
+            background-color: white;
         }
         #desktop {
             display: none;
@@ -53,9 +53,9 @@ a{
             padding-top: 50px;
         }
         #intro{
-            margin : 0px 5%;
+            margin : 150px 0px 30px 0px;
             font-size : 26px;
-            color: #8836FF;
+            color: black;
         }
         #designation{
             margin: 5% 5%;
@@ -80,9 +80,9 @@ a{
             font-size: 115%;
             outline:0 !important;
         }
-        .resume{
+        button.transparent{
             border: 2px solid #8836FF;
-            background-color: #FFE9E9;
+            background-color: rgba(255, 233, 233, 0);
             color: #8836FF;
             font-weight: 400;
         }
@@ -288,15 +288,11 @@ a{
           display: block;
         }
         #insta{
-          position: relative;
-          bottom: 0;
-          right: 0px;
-          height: 20%;
-          text-align: right;
-          vertical-align: middle;
-          line-height: 22px;
-          font-size: 13px;
-          color: #8836FF;
+            margin: auto;
+            display: inline-block;
+            position: absolute;
+            right: 15%;
+            padding: 14px 25px;
         }
         #art-nav{
           padding: 0;
@@ -333,7 +329,7 @@ a{
     @media screen and (min-width: 900px) {
         body {
             margin: 0;
-            background-color: #FFE9E9;
+            background-color: white;
         }
         #desktop {
             display: block;
@@ -362,16 +358,11 @@ a{
           height: 75%;
         }
         #insta{
-          position: absolute;
-          bottom: 0px;
-          right: 0px;
-          height: 30px;
-          width: 100%;
-          text-align: right;
-          vertical-align: middle;
-          line-height: 22px;
-          font-size: 19px;
-          color: #8836FF;
+            margin: auto;
+            display: inline-block;
+            position: absolute;
+            right: 15%;
+            padding: 14px 25px;
         }
         .art-item{
           margin: 10% auto;
@@ -382,7 +373,7 @@ a{
         #head {
             position: fixed;
             top:0;
-            background-color: #FFE9E9;
+            background-color: white;
             z-index: 1;
             width: 100%;
             height: 80px;
@@ -404,19 +395,20 @@ a{
             width: 100%;
         }
         .main1{
-            width: 70%;
-            margin: auto 15%;
+            width: 100%;
+            margin: auto;
         }
         #illustration{
             width: 100%;
         }
         #intro{
             font-size : 40px;
-            color: #8836FF;
-            padding-top: 20%;
+            color: black;
+            margin-top: 150px;
+            margin-bottom: 30px;
         }
         #designation{
-            margin: 5% 0%;
+            margin-bottom: 60px;
             line-height : 35px;
             font-size: 22px;
         }
@@ -428,20 +420,20 @@ a{
         }
         .buttons{
             grid-template-columns: 1fr 1fr;
-            margin: 5% 0%;
+            margin: 0px 0px 130px 0px;
             grid-column-gap: 5%;
             width: 70%;
             max-width: 500px;
         }
         button{
-            border-radius: 9px;
+            border-radius: 35px;
             padding: 14px 15px;
             font-size: 20px;
             outline:0 !important;
         }
-        .resume{
-            border: 2px solid #8836FF;
-            background-color: #FFE9E9;
+        .transparent{
+            border: 3px solid #8836FF;
+            background-color: rgba(255, 233, 233, 0);
             color: #8836FF;
             font-weight: 570;
         }
@@ -457,7 +449,7 @@ a{
             width: 100%;
         }
         .follow{
-            margin: 20% 0% 10% 0%;
+            margin: 0% 0% 130px 0%;
             grid-template-columns: repeat(4,1fr);
             width: 300px;
             height: 40px;
@@ -466,9 +458,8 @@ a{
             font-weight: bold;
             font-size: 40px;
             color: #8836FF;
-            margin: 30px;
-            margin-left: 0px;
-            margin-bottom: 50px;
+            margin: 0;
+            display: inline;
         }
         .c-work{
             grid-template-columns: 1fr 1fr;
@@ -484,7 +475,7 @@ a{
             border-radius: 10px;
             background: url('images/Image 1.png');
             background-size: 100%;
-            margin-top: 10%;
+            margin-top: 70px;
             position: relative;
         }
         .desc-work{
@@ -512,22 +503,23 @@ a{
             line-height: 100%;
         }
         #behance{
-            margin: 5% auto;
-            margin-top: 15%;
-            display: block;
-            margin-bottom: 20%;
+            margin: auto;
+            display: inline-block;
+            position: absolute;
+            right: 15%;
             padding: 14px 25px;
         }
         #button-dribble{
-            margin: 5% auto;
-            display: block;
-            margin-top: 15%;
-            margin-bottom: 10%;
+            margin: auto;
+            display: inline-block;
+            position: absolute;
+            right: 15%;
             padding: 14px 25px;
         }
         .c-dribble{
             grid-template-columns: 1fr 1fr 1fr;
             grid-column-gap: 3.2%;
+            margin-top: 40px;
         }
         .dribble-img{
             width:100%;
@@ -557,6 +549,7 @@ a{
             grid-template-columns: 1fr 1fr 1fr;
             grid-column-gap: 3.2%;
             margin-bottom: 150px;
+            margin-top: 40px;
         }
         .art-img{
             width:100%;
@@ -624,13 +617,25 @@ a{
             font-weight: normal;
         }
         #work1{
-            padding-top: 100px;
+            padding-top: 150px;
+            padding-left: 15%;
+            padding-right: 15%;
+            margin-bottom: 150px;
         }
         #art1{
-            padding-top: 100px;
+            padding-top: 150px;
+            padding-left: 15%;
+            padding-right: 15%;
         }
         #home1{
-            padding-top: 100px;
+            padding-top: 0px;
+        }
+        #dribble1{
+            padding-top: 150px;
+            padding-bottom: 150px;
+            padding-left: 15%;
+            padding-right: 15%;
+            background-color: #E7EBED;
         }
         #fm{
           margin:0;
@@ -656,6 +661,47 @@ a{
             font-weight: 600;
             padding-bottom: 20px;
         }
+        .ss-img{
+            width: 700px;
+            background-color: wheat;
+            padding-top: 700px;
+        }
+        .ss-desc{
+            color: white;
+            margin: 20px;
+            text-align: center;
+        }
+        .ss-view{
+            color:#DA48FF;
+            text-align: center;
+            margin:40px;
+            text-decoration: underline;
+        }
+        .art-all-ss{
+            display: none;
+            z-index: 12;
+        }
+        #prev{
+            width: 40px;
+            height: 40px;
+            z-index: 12;
+        }
+        #next{
+            width: 40px;
+            height: 40px;
+            z-index: 12;
+        }
+        .new{
+            background-color: #E7EBED;
+            padding: 80px 15% 0px 15%;
+            background-image: url("images/Simple Mockup Free Scene.png");
+            background-repeat: no-repeat;
+            background-position: right;
+
+        }
+    }
+    *{
+        -webkit-tap-highlight-color: transparent;
     }
     a{
         font: inherit;
@@ -700,6 +746,17 @@ a{
         position: absolute;
         z-index: 10;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    }
+    #slide-show{
+        height: -webkit-fill-available;;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        z-index: 10;
+        display: none;
         justify-content: center;
         align-items: center;
         position: fixed;
