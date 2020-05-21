@@ -1,12 +1,14 @@
 @font-face {
-    font-family: EuropaNuova;
-    src: url(fonts/EuropaNuovaRegular.ttf);
+    font-family: CircularStd;
+    src: url(fonts/CircularStd-Book.otf);
 }
 body{
-    font-family: EuropaNuova;
+    font-family: CircularStd;
+    font-weight: 400;
 }
 button{
-    font-family: EuropaNuova;
+    font-family: CircularStd;
+    font-weight: 400;
 }
 
 a{
@@ -84,7 +86,7 @@ a{
             border: 2px solid #8836FF;
             background-color: rgba(255, 233, 233, 0);
             color: #8836FF;
-            font-weight: 400;
+            font-weight: 700;
         }
         button.solid{
             background: transparent linear-gradient(108deg, #C749FF 0%, #5125FF 100%) 0% 0% no-repeat padding-box;
@@ -129,23 +131,23 @@ a{
             margin: 5% auto;
             display: block;
         }
-        #button-dribble{
+        #button-dribbble{
             margin: 5% auto;
             display: block;
         }
-        .c-dribble{
+        .c-dribbble{
             margin: 5%;
             grid-template-columns: 1fr 1fr;
             grid-column-gap: 3%;
         }
-        .dribble-img{
+        .dribbble-img{
             width:100%;
             padding-top: 75%;
             border-radius: 5px;
             background: url('images/Image 6.png');
             background-size: 100%;
         }
-        .desc-dribble{
+        .desc-dribbble{
             text-align: center;
             margin-top: 8px;
         }
@@ -304,7 +306,7 @@ a{
           margin-top: 0;
           font-size: 16px;
         }
-        #dribble{
+        #dribbble{
             padding-top: 50px;
         }
         .nb-spinner {
@@ -432,10 +434,10 @@ a{
             outline:0 !important;
         }
         .transparent{
-            border: 3px solid #8836FF;
+            border: 2px solid #8836FF;
             background-color: rgba(255, 233, 233, 0);
             color: #8836FF;
-            font-weight: 570;
+            font-weight: 500;
         }
         button.solid{
             background: transparent linear-gradient(108deg, #C749FF 0%, #5125FF 100%) 0% 0% no-repeat padding-box;
@@ -509,19 +511,19 @@ a{
             right: 15%;
             padding: 14px 25px;
         }
-        #button-dribble{
+        #button-dribbble{
             margin: auto;
             display: inline-block;
             position: absolute;
             right: 15%;
             padding: 14px 25px;
         }
-        .c-dribble{
+        .c-dribbble{
             grid-template-columns: 1fr 1fr 1fr;
             grid-column-gap: 3.2%;
             margin-top: 40px;
         }
-        .dribble-img{
+        .dribbble-img{
             border: 2px solid rgb(228, 228, 228) ;
             width:100%;
             padding-top: 75%;
@@ -530,7 +532,7 @@ a{
             margin-top: 10%;
             position: relative;
         }
-        .desc-dribble{
+        .desc-dribbble{
             opacity: 0;
             width: 100%;
             height: 100%;
@@ -542,7 +544,7 @@ a{
             border-radius: 10px;
             text-align: center;
         }
-        .desc-dribble:hover{
+        .desc-dribbble:hover{
             opacity: 1;
         }
         .c-art{
@@ -630,7 +632,7 @@ a{
         #home1{
             padding-top: 0px;
         }
-        #dribble1{
+        #dribbble1{
             padding-top: 150px;
             padding-bottom: 150px;
             padding-left: 15%;
@@ -731,6 +733,7 @@ a{
     }
     .nav-container input {
         display: none;
+        
     }
     .nav-container input:checked ~ .checkmark {
         color: #8836FF;
