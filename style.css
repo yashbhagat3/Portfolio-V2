@@ -706,7 +706,8 @@ a{
             padding: 0px 10% 0px 10%;
             background-image: url("images/Simple Mockup Free Scene.png");
             background-repeat: no-repeat;
-            background-position: right;
+            background-position: 100%;
+            background-position-x: 125%;
             background-size: 1000px;
 
         }
