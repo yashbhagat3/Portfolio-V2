@@ -522,10 +522,10 @@ a{
             margin-top: 40px;
         }
         .dribble-img{
+            border: 2px solid rgb(228, 228, 228) ;
             width:100%;
             padding-top: 75%;
             border-radius: 10px;
-            background: url('images/Image 6.png');
             background-size: 100%;
             margin-top: 10%;
             position: relative;
