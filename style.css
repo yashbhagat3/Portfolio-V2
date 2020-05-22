@@ -709,6 +709,10 @@ a{
             background-position: right;
 
         }
+        .dribbble a {
+            display: block;
+            height: 0px;
+        }
     }
     *{
         -webkit-tap-highlight-color: transparent;
