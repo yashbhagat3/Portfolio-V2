@@ -17,6 +17,53 @@ a{
 }
 
     @media screen and (max-width: 1100px) {
+
+        #outerillus{
+            background-color: #E7EBED;
+            margin:auto;
+            
+        }
+        #outerbuttons{
+            max-width: 600px;
+            background-color: #ffffff;
+            margin:auto;
+            padding: 0 5% 0 5%;
+            
+        }
+        #outerfollow{
+            max-width: 600px;
+            background-color: #ffffff;
+            margin:auto;
+            padding: 0 5% 0 7%;
+            
+        }
+        #outerhome{
+            background-color: #ffffff;
+            margin:auto;
+            
+        }
+        .outerwork{
+            background-color: rgb(255, 255, 255);
+            margin:auto;
+            
+        }
+
+        .outerdribbble{
+            background-color: #E7EBED;
+            margin:auto;
+            
+        }
+        .outerart{
+            background-color: rgb(255, 255, 255);
+            margin:auto;
+            
+        }
+        .outerfooter{
+            background: transparent linear-gradient(135deg, #C749FF 0%, #3000EF 100%) 0% 0% no-repeat padding-box;
+            margin:auto;
+            
+        }
+
         body {
             margin: 0;
             background-color: white;
@@ -51,6 +98,8 @@ a{
             grid-template-columns: 1fr;
         }
         #illustration{
+            margin: auto;
+            max-width: 600px;
             height: 350px;
             background: #E7EBED;
             background-size: cover;
@@ -59,12 +108,16 @@ a{
             margin-top: 50px;
         }
         #intro{
+            margin: auto;
+            max-width: 600px;
             padding : 40px 5% 0px 5%;
             font-size : 26px;
             color: black;
         }
         #designation{
-            margin: 5% 5%;
+            margin: auto;
+            max-width: 600px;
+            padding: 5% 5%;
             line-height : 25px;
         }
         .grid-container{
@@ -76,11 +129,11 @@ a{
 
         
         .buttons{
-            grid-template-columns: 1fr 1fr;
-            margin: auto 5%;
-            grid-column-gap: 5%;
-            width: 90%;
+            margin:left;
             max-width: 350px;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 5%;
+        
         }
         button{
             border-radius: 5px;
@@ -109,7 +162,7 @@ a{
             
         }
         .follow{
-            margin: 15% 5% 10% 7%;
+            padding: 40px 0% 40px 0%;
             grid-template-columns: repeat(4,1fr);
             max-width: 300px;
             width: 100%;
@@ -316,6 +369,7 @@ a{
           padding: 0;
           margin-top: 6%;
           margin-bottom: 0;
+          font-weight: 700;
         }
         .art-item{
           margin: 10% auto;
@@ -739,7 +793,7 @@ a{
 
         }
         .outerhome{
-            background-color: #E7EBED;
+            background-color: rgb(0, 0, 0);
             margin:auto;
             
         }
