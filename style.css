@@ -69,6 +69,8 @@ a{
         .grid-item{
             display: inline-grid;
         }
+
+        
         .buttons{
             grid-template-columns: 1fr 1fr;
             margin: auto 5%;
@@ -97,6 +99,7 @@ a{
             background: transparent linear-gradient(135deg, #C749FF 0%, #3000EF 100%) 0% 0% no-repeat padding-box;
             height: 360px;
             color: white;
+            
         }
         .follow{
             margin: 15% 5% 10% 5%;
@@ -451,10 +454,11 @@ a{
             color: white;
         }
         .footer{
-            background: transparent linear-gradient(135deg, #C749FF 0%, #3000EF 100%) 0% 0% no-repeat padding-box;
             height: 230px;
             color: white;
             width: 100%;
+            max-width: 1200px;
+            margin:auto;
         }
         .follow{
             margin: 0% 0% 80px 0%;
@@ -596,8 +600,7 @@ a{
             max-width: 300px;
         }
         #madeby{
-            margin-right: 10%;
-            margin-left: 10%;
+            width: 80%;
             margin-top: 30px;
             padding-top: 0px;
             padding-bottom: 0px;
@@ -605,12 +608,11 @@ a{
             font-size: 18px;
             border-top: 2px white solid;
             position: absolute;
-            width: 80%;
+            max-width: 1200px;
             bottom: 0;
         }
         .foot{
             grid-template-columns: 7fr 3fr;
-            margin: auto 10%;
             padding-top: 10px;
         }
         .new{
@@ -626,24 +628,30 @@ a{
             color: #888888;
         }
         #work1{
+            max-width: 1200px;
+            margin:auto;
             padding-top: 150px;
-            padding-left: 10%;
-            padding-right: 10%;
+            padding-left: 5%;
+            padding-right: 5%;
             margin-bottom: 150px;
         }
         #art1{
+            max-width: 1200px;
+            margin:auto;
             padding-top: 150px;
-            padding-left: 10%;
-            padding-right: 10%;
+            padding-left: 5%;
+            padding-right: 5%;
         }
         #home1{
             padding-top: 0px;
         }
         #dribbble1{
+            max-width: 1200px;
+            margin:auto;
             padding-top: 150px;
             padding-bottom: 150px;
-            padding-left: 10%;
-            padding-right: 10%;
+            padding-left: 5%;
+            padding-right: 5%;
             background-color: #E7EBED;
         }
         #fm{
@@ -702,14 +710,42 @@ a{
             z-index: 12;
         }
         .new{
+            margin:auto;
+            max-width: 1200px;
             background-color: #E7EBED;
-            padding: 0px 10% 0px 10%;
+            padding: 0px 5% 0px 5%;
             background-image: url("images/Simple Mockup Free Scene.png");
             background-repeat: no-repeat;
-            background-position: 100%;
-            background-position-x: 125%;
-            background-size: 1000px;
+            background-position-x: 120%;
+            background-size: contain;
 
+        }
+        .outerhome{
+            background-color: #E7EBED;
+            margin:auto;
+            
+        }
+
+        .outerwork{
+            background-color: rgb(255, 255, 255);
+            margin:auto;
+            
+        }
+
+        .outerdribbble{
+            background-color: #E7EBED;
+            margin:auto;
+            
+        }
+        .outerart{
+            background-color: rgb(255, 255, 255);
+            margin:auto;
+            
+        }
+        .outerfooter{
+            background: transparent linear-gradient(135deg, #C749FF 0%, #3000EF 100%) 0% 0% no-repeat padding-box;
+            margin:auto;
+            
         }
     }
     *{
