@@ -213,6 +213,7 @@ a{
             background-repeat: no-repeat;
             border-radius: 5px;
             background-size: 100%;
+            line-height: 0;
         }
         .desc-dribbble{
             text-align: center;
@@ -440,8 +441,8 @@ a{
             
             margin: auto;
             display: inline-block;
-            position: absolute;
-            right: 10%;
+            position: relative;
+            float: right;
             padding: 14px 25px;
         }
         .art-item{
@@ -546,6 +547,7 @@ a{
         .c-work{
             grid-template-columns: 1fr 1fr;
             grid-column-gap: 5%;
+            margin-top: 30px;
         }
         .work1{
             grid-template-columns: 1fr 1fr 1fr;
@@ -558,7 +560,7 @@ a{
             background: url('images/dribbble small/3.jpg');
             background-size: 100%;
             background: cover;
-            margin-top: 70px;
+            margin-top: 40px;
             position: relative;
         }
         .desc-work{
@@ -588,15 +590,15 @@ a{
         #behance{
             margin: auto;
             display: inline-block;
-            position: absolute;
-            right: 10%;
+            position: relative;
+            float: right;
             padding: 14px 25px;
         }
         #button-dribbble{
             margin: auto;
             display: inline-block;
-            position: absolute;
-            right: 10%;
+            position: relative;
+            float: right;
             padding: 14px 25px;
         }
         .c-dribbble{
