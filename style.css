@@ -16,7 +16,54 @@ a{
     text-decoration: none;
 }
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1100px) {
+
+        #outerillus{
+            background-color: #E7EBED;
+            margin:auto;
+            
+        }
+        #outerbuttons{
+            max-width: 600px;
+            background-color: #ffffff;
+            margin:auto;
+            padding: 0 5% 0 5%;
+            
+        }
+        #outerfollow{
+            max-width: 600px;
+            background-color: #ffffff;
+            margin:auto;
+            padding: 0 5% 0 7%;
+            
+        }
+        #outerhome{
+            background-color: #ffffff;
+            margin:auto;
+            
+        }
+        .outerwork{
+            background-color: rgb(255, 255, 255);
+            margin:auto;
+            
+        }
+
+        .outerdribbble{
+            background-color: #E7EBED;
+            margin:auto;
+            
+        }
+        .outerart{
+            background-color: rgb(255, 255, 255);
+            margin:auto;
+            
+        }
+        .outerfooter{
+            background: transparent linear-gradient(135deg, #C749FF 0%, #3000EF 100%) 0% 0% no-repeat padding-box;
+            margin:auto;
+            
+        }
+
         body {
             margin: 0;
             background-color: white;
@@ -33,13 +80,13 @@ a{
             background-color: white;
             z-index: 1;
             width: 100%;
-            height: 50px;
+            height: 60px;
             vertical-align: middle;
         }
         #name{
             margin: auto 5%;
             color: #8836FF;
-            line-height: 50px;
+            line-height: 60px;
             font-weight: bold;
         }
         .main{
@@ -51,17 +98,29 @@ a{
             grid-template-columns: 1fr;
         }
         #illustration{
+            margin: auto;
+            max-width: 600px;
+            height: 350px;
+            background: #E7EBED;
+            background-size: cover;
+            background-image: url("images/Simple\ Mockup\ Free\ Scene.png");
             width: 100%;
-            padding-top: 50px;
+            margin-top: 50px;
         }
         #intro{
-            margin : 130px 0px 30px 0px;
-            font-size : 26px;
+            margin: auto;
+            max-width: 600px;
+            padding : 40px 5% 0px 5%;
+            font-size : 28px;
+            line-height: 38px;
             color: black;
         }
         #designation{
-            margin: 5% 5%;
-            line-height : 25px;
+            font-size: 17px;
+            margin: auto;
+            max-width: 600px;
+            padding: 5% 5%;
+            line-height : 27px;
         }
         .grid-container{
             display: grid;
@@ -69,12 +128,14 @@ a{
         .grid-item{
             display: inline-grid;
         }
+
+        
         .buttons{
-            grid-template-columns: 1fr 1fr;
-            margin: auto 5%;
-            grid-column-gap: 5%;
-            width: 90%;
+            margin:left;
             max-width: 350px;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 5%;
+        
         }
         button{
             border-radius: 5px;
@@ -83,12 +144,15 @@ a{
             outline:0 !important;
         }
         button.transparent{
+            border-radius: 100px;
+            outline-offset: -2px;
             border: 2px solid #8836FF;
             background-color: rgba(255, 233, 233, 0);
             color: #8836FF;
-            font-weight: 700;
+            font-weight: 500;
         }
         button.solid{
+            border-radius: 100px;
             background: transparent linear-gradient(108deg, #C749FF 0%, #5125FF 100%) 0% 0% no-repeat padding-box;
             border:none;
             color: white;
@@ -97,9 +161,10 @@ a{
             background: transparent linear-gradient(135deg, #C749FF 0%, #3000EF 100%) 0% 0% no-repeat padding-box;
             height: 360px;
             color: white;
+            
         }
         .follow{
-            margin: 15% 5% 10% 5%;
+            padding: 40px 0% 40px 0%;
             grid-template-columns: repeat(4,1fr);
             max-width: 300px;
             width: 100%;
@@ -109,10 +174,11 @@ a{
         .title{
             font-weight: bold;
             font-size: 26px;
-            color: #8836FF;
+            color: #000000;
             margin: 5%;
         }
         .work{
+            
             margin: auto 5%;
             margin-top: 5%;
         }
@@ -120,7 +186,7 @@ a{
             width:100%;
             padding-top: 75%;
             border-radius: 5px;
-            background: url('images/Image 1.png');
+            background: url('images/dribbble small/3.jpg');
             background-size: 100%;
         }
         .desc-work{
@@ -143,8 +209,9 @@ a{
         .dribbble-img{
             width:100%;
             padding-top: 75%;
+            background-size: contain;
+            background-repeat: no-repeat;
             border-radius: 5px;
-            background: url('images/Image 6.png');
             background-size: 100%;
         }
         .desc-dribbble{
@@ -161,7 +228,7 @@ a{
             width:100%;
             padding-top: 100%;
             border-radius: 5px;
-            background: url('images/wolf@2x.png');
+            background: url('images/dribbble small/3.jpg');
             background-size: 100%;
             margin-top: 6%;
         }
@@ -173,24 +240,25 @@ a{
             padding-top: 35px;
             padding-left: 5%;
             font-size: 26px;
-            font-weight: bold;
+            font-weight: 500;
         }
         #contact{
             line-height: 30px;
             padding-left: 5%;
             padding-top: 10px;
+            font-weight: 500;
         }
         #follow{
             padding-top: 35px;
             padding-left: 5%;
             font-size: 26px;
-            font-weight: bold;
+            font-weight: 500;
         }
         .follow-2{
             margin: 20px 5%;
             grid-template-columns: repeat(4,1fr);
             width: 100%;
-            margin-left: 0;
+            margin-left: 2px;
             max-width: 300px;
             height: 40px;
         }
@@ -209,7 +277,7 @@ a{
             padding: 0;
             padding-right: 20px;
             position: absolute;
-            top: 13px;
+            top: 17px;
             right: 0;
             height: 100%;
             font-weight: 700;
@@ -226,7 +294,7 @@ a{
             width: 100%;
             text-align: center;
             height: 60px;
-            font-size: 19px;
+            font-size: 16px;
             font-weight: 700;
         }
         .navigation{
@@ -252,14 +320,14 @@ a{
             right: 0;
             z-index: 3;
             display: block;
-            transition: 0.5s;
+            transition: 0.3s;
             overflow: hidden;
         }
         #fade{
             height: 100vh;
             width: 100%;
             background-color: black;
-            opacity: 0.5;
+            opacity: 0.3;
             position: absolute;
             top: 0;
             left: 0;
@@ -280,9 +348,11 @@ a{
         }
         #work{
             padding-top: 50px;
+            padding-bottom: 50px;
         }
         #art{
             padding-top: 50px;
+            padding-bottom: 50px;
         }
         #checkout{
           position: absolute;
@@ -295,13 +365,14 @@ a{
             margin: auto;
             display: inline-block;
             position: absolute;
-            right: 15%;
+            right: 10%;
             padding: 14px 25px;
         }
         #art-nav{
           padding: 0;
           margin-top: 6%;
           margin-bottom: 0;
+          font-weight: 700;
         }
         .art-item{
           margin: 10% auto;
@@ -310,6 +381,7 @@ a{
         }
         #dribbble{
             padding-top: 50px;
+            padding-bottom: 50px;
         }
         .nb-spinner {
             height: 150px;
@@ -330,7 +402,7 @@ a{
 
 
 
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: 1100px) {
         body {
             margin: 0;
             background-color: white;
@@ -369,7 +441,7 @@ a{
             margin: auto;
             display: inline-block;
             position: absolute;
-            right: 15%;
+            right: 10%;
             padding: 14px 25px;
         }
         .art-item{
@@ -442,6 +514,7 @@ a{
         .transparent{
             border: 2px solid #8836FF;
             background-color: rgba(255, 233, 233, 0);
+            padding: 4px 4px;
             color: #8836FF;
             font-weight: 500;
         }
@@ -451,13 +524,14 @@ a{
             color: white;
         }
         .footer{
-            background: transparent linear-gradient(135deg, #C749FF 0%, #3000EF 100%) 0% 0% no-repeat padding-box;
             height: 230px;
             color: white;
             width: 100%;
+            max-width: 1200px;
+            margin:auto;
         }
         .follow{
-            margin: 0% 0% 130px 0%;
+            margin: 0% 0% 80px 0%;
             grid-template-columns: repeat(4,1fr);
             width: 300px;
             height: 40px;
@@ -481,8 +555,9 @@ a{
             width:100%;
             padding-top: 75%;
             border-radius: 10px;
-            background: url('images/Image 1.png');
+            background: url('images/dribbble small/3.jpg');
             background-size: 100%;
+            background: cover;
             margin-top: 70px;
             position: relative;
         }
@@ -514,14 +589,14 @@ a{
             margin: auto;
             display: inline-block;
             position: absolute;
-            right: 15%;
+            right: 10%;
             padding: 14px 25px;
         }
         #button-dribbble{
             margin: auto;
             display: inline-block;
             position: absolute;
-            right: 15%;
+            right: 10%;
             padding: 14px 25px;
         }
         .c-dribbble{
@@ -532,6 +607,8 @@ a{
         .dribbble-img{
             border: 2px solid rgb(223, 223, 223) ;
             width:100%;
+            background-size: cover;
+            background-repeat: no-repeat;
             padding-top: 75%;
             border-radius: 10px;
             background-size: 100%;
@@ -563,7 +640,9 @@ a{
             width:100%;
             padding-top: 100%;
             border-radius: 10px;
-            background: url('images/wolf@2x.png');
+            background-repeat: no-repeat;
+            background: cover;
+            background: url('images/dribbble small/3.jpg');
             background-size: 100%;
             margin-top: 10%;
         }
@@ -596,8 +675,7 @@ a{
             max-width: 300px;
         }
         #madeby{
-            margin-right: 15%;
-            margin-left: 15%;
+            width: 100%;
             margin-top: 30px;
             padding-top: 0px;
             padding-bottom: 0px;
@@ -605,12 +683,11 @@ a{
             font-size: 18px;
             border-top: 2px white solid;
             position: absolute;
-            width: 70%;
+            max-width: 1200px;
             bottom: 0;
         }
         .foot{
             grid-template-columns: 7fr 3fr;
-            margin: auto 15%;
             padding-top: 10px;
         }
         .new{
@@ -626,24 +703,30 @@ a{
             color: #888888;
         }
         #work1{
+            max-width: 1200px;
+            margin:auto;
             padding-top: 150px;
-            padding-left: 15%;
-            padding-right: 15%;
+            padding-left: 5%;
+            padding-right: 5%;
             margin-bottom: 150px;
         }
         #art1{
+            max-width: 1200px;
+            margin:auto;
             padding-top: 150px;
-            padding-left: 15%;
-            padding-right: 15%;
+            padding-left: 5%;
+            padding-right: 5%;
         }
         #home1{
             padding-top: 0px;
         }
         #dribbble1{
+            max-width: 1200px;
+            margin:auto;
             padding-top: 150px;
             padding-bottom: 150px;
-            padding-left: 15%;
-            padding-right: 15%;
+            padding-left: 5%;
+            padding-right: 5%;
             background-color: #E7EBED;
         }
         #fm{
@@ -702,12 +785,42 @@ a{
             z-index: 12;
         }
         .new{
+            margin:auto;
+            max-width: 1200px;
             background-color: #E7EBED;
-            padding: 80px 15% 0px 15%;
+            padding: 0px 5% 0px 5%;
             background-image: url("images/Simple Mockup Free Scene.png");
             background-repeat: no-repeat;
-            background-position: right;
+            background-position-x: 120%;
+            background-size: contain;
 
+        }
+        .outerhome{
+            background-color: #E7EBED;
+            margin:auto;
+            
+        }
+
+        .outerwork{
+            background-color: rgb(255, 255, 255);
+            margin:auto;
+            
+        }
+
+        .outerdribbble{
+            background-color: #E7EBED;
+            margin:auto;
+            
+        }
+        .outerart{
+            background-color: rgb(255, 255, 255);
+            margin:auto;
+            
+        }
+        .outerfooter{
+            background: transparent linear-gradient(135deg, #C749FF 0%, #3000EF 100%) 0% 0% no-repeat padding-box;
+            margin:auto;
+            
         }
         .dribbble a {
             display: block;
@@ -728,7 +841,9 @@ a{
         font-weight: 700;
     }
     button:hover{
-      box-shadow: 0px 10px 20px rgba(143, 76, 165, 0.5);
+      background: transparent linear-gradient(135deg, #C749FF 0%, #3000EF 100%) 0% 0% no-repeat padding-box;
+      color: #ffffff;
+      border: 0px;
       outline:0 !important;
     }
     .art-container input  {
@@ -739,6 +854,8 @@ a{
     }
     .art-container input:checked ~ .checkmark {
         color: #8836FF;
+        text-decoration: underline;
+        text-underline-position: under;
     }
     .art-container:hover input ~ .checkmark {
         color: #8836FF;
