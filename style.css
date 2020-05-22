@@ -16,7 +16,7 @@ a{
     text-decoration: none;
 }
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1100px) {
         body {
             margin: 0;
             background-color: white;
@@ -333,7 +333,7 @@ a{
 
 
 
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: 1100px) {
         body {
             margin: 0;
             background-color: white;
