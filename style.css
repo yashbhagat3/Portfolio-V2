@@ -51,11 +51,15 @@ a{
             grid-template-columns: 1fr;
         }
         #illustration{
+            height: 350px;
+            background: #E7EBED;
+            background-size: cover;
+            background-image: url("images/Simple\ Mockup\ Free\ Scene.png");
             width: 100%;
-            padding-top: 50px;
+            margin-top: 50px;
         }
         #intro{
-            margin : 130px 0px 30px 0px;
+            padding : 40px 5% 0px 5%;
             font-size : 26px;
             color: black;
         }
@@ -85,13 +89,15 @@ a{
             outline:0 !important;
         }
         button.transparent{
+            border-radius: 100px;
             outline-offset: -2px;
             border: 2px solid #8836FF;
             background-color: rgba(255, 233, 233, 0);
             color: #8836FF;
-            font-weight: 700;
+            font-weight: 500;
         }
         button.solid{
+            border-radius: 100px;
             background: transparent linear-gradient(108deg, #C749FF 0%, #5125FF 100%) 0% 0% no-repeat padding-box;
             border:none;
             color: white;
@@ -103,7 +109,7 @@ a{
             
         }
         .follow{
-            margin: 15% 5% 10% 5%;
+            margin: 15% 5% 10% 7%;
             grid-template-columns: repeat(4,1fr);
             max-width: 300px;
             width: 100%;
@@ -113,10 +119,11 @@ a{
         .title{
             font-weight: bold;
             font-size: 26px;
-            color: #8836FF;
+            color: #000000;
             margin: 5%;
         }
         .work{
+            
             margin: auto 5%;
             margin-top: 5%;
         }
@@ -124,7 +131,7 @@ a{
             width:100%;
             padding-top: 75%;
             border-radius: 5px;
-            background: url('images/Image 1.png');
+            background: url('images/dribbble small/3.jpg');
             background-size: 100%;
         }
         .desc-work{
@@ -166,7 +173,7 @@ a{
             width:100%;
             padding-top: 100%;
             border-radius: 5px;
-            background: url('images/wolf@2x.png');
+            background: url('images/dribbble small/3.jpg');
             background-size: 100%;
             margin-top: 6%;
         }
@@ -178,7 +185,7 @@ a{
             padding-top: 35px;
             padding-left: 5%;
             font-size: 26px;
-            font-weight: bold;
+            font-weight: 500;
         }
         #contact{
             line-height: 30px;
@@ -189,7 +196,7 @@ a{
             padding-top: 35px;
             padding-left: 5%;
             font-size: 26px;
-            font-weight: bold;
+            font-weight: 500;
         }
         .follow-2{
             margin: 20px 5%;
@@ -285,9 +292,11 @@ a{
         }
         #work{
             padding-top: 50px;
+            padding-bottom: 50px;
         }
         #art{
             padding-top: 50px;
+            padding-bottom: 50px;
         }
         #checkout{
           position: absolute;
@@ -315,6 +324,7 @@ a{
         }
         #dribbble{
             padding-top: 50px;
+            padding-bottom: 50px;
         }
         .nb-spinner {
             height: 150px;
@@ -608,7 +618,7 @@ a{
             max-width: 300px;
         }
         #madeby{
-            width: 80%;
+            width: 100%;
             margin-top: 30px;
             padding-top: 0px;
             padding-bottom: 0px;
@@ -795,8 +805,6 @@ a{
     }
     .nav-container input:checked ~ .checkmark {
         color: #8836FF;
-        text-decoration: underline;
-        text-underline-position: under;
     }
     .nav-container:hover input ~ .checkmark {
         color: #8836FF;
