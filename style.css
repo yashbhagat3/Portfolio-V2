@@ -139,7 +139,7 @@ a{
         }
         button{
             border-radius: 5px;
-            padding:15px;
+            padding:15px 25px;
             font-size: 115%;
             outline:0 !important;
         }
@@ -485,7 +485,7 @@ a{
         #intro{
             font-size : 40px;
             color: black;
-            margin-top: 130px;
+            margin-top: 150px;
             margin-bottom: 30px;
         }
         #designation{
@@ -508,7 +508,8 @@ a{
         }
         button{
             border-radius: 35px;
-            padding: 14px 15px;
+            padding: 20px 30px;
+            margin-right: auto;
             font-size: 20px;
             outline:0 !important;
         }
@@ -702,7 +703,7 @@ a{
         .nav-item{
             font-size: 14px;
             font-weight: 700;
-            color: #888888;
+            color: #000000;
         }
         #work1{
             max-width: 1200px;
