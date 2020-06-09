@@ -1,14 +1,10 @@
-@font-face {
-    font-family: CircularStd;
-    src: url(fonts/CircularStd-Book.otf);
-}
 body{
-    font-family: CircularStd;
+    font-family: DM Sans;
     font-weight: 400;
 }
 button{
-    font-family: CircularStd;
-    font-weight: 400;
+    font-family: DM Sans;
+    font-weight: 500;
 }
 
 a{
