@@ -381,14 +381,16 @@ a{
             padding-bottom: 50px;
         }
         .nb-spinner {
-            height: 150px;
-            width: 150px;
+            height: 80px;
+            width: 80px;
         }
         #loader-img{
-            width:75px;
-            margin-bottom: 10%;
+            width:50px;
+            padding-top: 20%;
+            padding-right: 20%;
         }
         .loader-content{
+            
             font-weight: 600;
             font-size: 14px;
             padding-bottom: 10px;
@@ -745,8 +747,8 @@ a{
         }
         #loader-img{
             width: 48px;
-            padding-bottom: 0%;
-            padding-bottom: 0%;
+            padding-top: 10%;
+            padding-right: 10%;
         }
         .loader-content{
             font-size: 22px;
