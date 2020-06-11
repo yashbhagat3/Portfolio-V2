@@ -62,7 +62,7 @@ function all1()
     for (let i = 0; i < myElements.length; i++) {
         myElements[i].style.display = "none";
     }
-    myElements = document.querySelectorAll(".illustration");
+    myElements = document.querySelectorAll(".illustrations");
 
     for (let i = 0; i < myElements.length; i++) {
         myElements[i].style.display = "none";
@@ -91,7 +91,7 @@ function illustration()
     for (let i = 0; i < myElements.length; i++) {
         myElements[i].style.display = "none";
     }
-    myElements = document.querySelectorAll(".illustration");
+    myElements = document.querySelectorAll(".illustrations");
 
     for (let i = 0; i < myElements.length; i++) {
         myElements[i].style.display = "block";
@@ -110,7 +110,7 @@ function composition()
     for (let i = 0; i < myElements.length; i++) {
         myElements[i].style.display = "none";
     }
-    myElements = document.querySelectorAll(".illustration");
+    myElements = document.querySelectorAll(".illustrations");
 
     for (let i = 0; i < myElements.length; i++) {
         myElements[i].style.display = "none";
@@ -134,7 +134,7 @@ function sketches()
     for (let i = 0; i < myElements.length; i++) {
         myElements[i].style.display = "none";
     }
-    myElements = document.querySelectorAll(".illustration");
+    myElements = document.querySelectorAll(".illustrations");
 
     for (let i = 0; i < myElements.length; i++) {
         myElements[i].style.display = "none";

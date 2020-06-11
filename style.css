@@ -827,6 +827,15 @@ a{
             display: block;
             height: 0px;
         }
+        .illustrations {
+            display: none;
+        }
+        .sketches {
+            display: none;
+        }
+        .compositions {
+            display: none;
+        }
     }
     *{
         -webkit-tap-highlight-color: transparent;
