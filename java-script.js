@@ -154,13 +154,18 @@ function offset(el) {
 }
 
 var prevScrollpos = window.pageYOffset;
+var d = 0;
+function shownav() {
+    d=1;
+}
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
+  if (prevScrollpos >= currentScrollPos) {
     document.getElementById("head").style.top = "0";
-  } else {
+  } else if(!d) {
     document.getElementById("head").style.top = "-100px";
   }
+  d=0;
   prevScrollpos = currentScrollPos;
   if(currentScrollPos!=0)
   {
