@@ -505,6 +505,13 @@ a{
             width: 70%;
             max-width: 500px;
         }
+
+        iframe{
+            margin:0 auto;
+            display:block;
+          }
+
+          
         button{
             border-radius: 35px;
             padding: 16px 30px;
