@@ -44,6 +44,7 @@ a{
         }
         #head {
             top:0;
+            padding-top: 8vh;
             max-width: 1110px;
             margin: auto;
             background-color: white;
@@ -86,7 +87,6 @@ a{
             list-style-type: none;
             margin: 0;
             padding: 0;
-            width: 160px;
             position: relative;
             right: 0;
             height: 100%;
@@ -238,7 +238,7 @@ a{
             background-size: cover;
             background-repeat: no-repeat;
             padding-top: 75%;
-            padding-bottom: 30px;
+            margin-bottom: 30px;
             background-size: 100%;
             background-position: center;
             position: relative;
@@ -351,9 +351,10 @@ a{
         }
         
         .home{
-            height:100vh;
-            margin-left:auto;
-            margin-right:auto;
+            margin-top: 15vh;
+            margin-bottom: 32vh;
+            margin-left: auto;
+            margin-right: auto;
             max-width: 920px;
         }
 
