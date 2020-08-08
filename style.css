@@ -36,7 +36,7 @@ a{
         }
         .nav-item{
             display: inline-block;
-            margin-right: 32px;
+            margin-left: 32px;
             color: #a5a5a5;
             font-size: 16px;
             font-weight: 400;
@@ -66,11 +66,13 @@ a{
         }
 
         #copyright {
+            padding-top: 16px;
+            padding-bottom: 0px;
             display: inline-block;
             color: #000000;
             font-size: 16px;
             font-weight: 400;
-            line-height: 64px;
+            line-height: 16px;
         }
 
         #next1{
@@ -91,6 +93,21 @@ a{
             right: 0;
             height: 100%;
             float:right;
+            background-size: 100%;
+            transition: background-size 0.5s;
+            transition-timing-function: ease;
+        }
+
+        #next2:hover{
+            display: inline-block;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            right: 0;
+            height: 100%;
+            float:right;
+            background-size: 105%;
         }
         #nextpic{
             width:160px;
@@ -115,12 +132,29 @@ a{
         }
 
         .links{
+            box-shadow: inset 0 -1.5px 0 #59a6ff00;
+            padding-top: 16px;
+            padding-bottom: 0px;
             display: inline-block;
-            margin-right: 32px;
+            margin-left: 32px;
             color: #2365B1;
             font-size: 16px;
             font-weight: 400;
-            line-height: 64px;
+            line-height: 16px;
+            transition: all 0.2s;
+            transition-timing-function: ease-out;
+        }
+
+        .links:hover{
+            box-shadow: inset 0 -1.5px 0 #59a6ff;
+            padding-top: 16px;
+            padding-bottom: 4px;
+            display: inline-block;
+            margin-left: 32px;
+            color: #2365B1;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
         }
 
         #name{
@@ -157,8 +191,23 @@ a{
             max-width: 540px;
         }
         #contact{
+            display: inline-block;
             max-width: 730px;
-            color: black;
+            color: #1B466A;
+            font-weight: 500;
+        }
+        #email{
+            box-shadow: inset 0 -1.5px 0 #59A6FF;
+            display: inline-block;
+            max-width: 730px;
+            color: #1B466A;
+            font-weight: 500;
+            transition: all 0.3s;
+            transition-timing-function: ease;
+        }
+        #email:hover{
+            box-shadow: inset 0 -28px 0 #59A6FF;
+            color: #ffffff;
             font-weight: 500;
         }
         .grid-container{
@@ -168,6 +217,10 @@ a{
             display: inline-grid;
         }
         
+        ::selection {
+              color: #2365b1;
+              background: #f0f2ff;
+          }
 
         iframe{
             margin:0 auto;
@@ -175,7 +228,6 @@ a{
           }
 
           
-        
         .title{
             font-weight: bold;
             font-size: 40px;
@@ -191,27 +243,25 @@ a{
         .work-img{
             width:100%;
             padding-top: 75%;
+            background-position: center;
+            background: cover;
+            margin-bottom: 16px;
+            position: relative;
             background-size: 100%;
+            transition: background-size 0.5s;
+            transition-timing-function: ease;
+        }
+
+        .work-img:hover{
+            width:100%;
+            padding-top: 75%;
+            background-size: 105%;
             background-position: center;
             background: cover;
             margin-bottom: 16px;
             position: relative;
         }
 
-        .desc-work{
-            opacity: 0;
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            right: 0;
-            color: white;
-            border-radius: 10px;
-            text-align: center;
-        }
-        .desc-work:hover{
-            opacity: 1;
-        }
         p.desc{
             color: white;
             display: inline-block;
@@ -220,13 +270,6 @@ a{
             height: 10%;
             margin: 33.8% auto;
             line-height: 100%;
-        }
-        #behance{
-            margin: auto;
-            display: inline-block;
-            position: relative;
-            float: right;
-            padding: 14px 25px;
         }
         .c-dribbble{
             grid-template-columns: 1fr 1fr;
@@ -240,6 +283,19 @@ a{
             padding-top: 75%;
             margin-bottom: 30px;
             background-size: 100%;
+            background-position: center;
+            position: relative;
+            background-size: 100%;
+            transition: background-size 0.5s;
+            transition-timing-function: ease;
+        }
+        .dribbble-img:hover{
+            width:100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 75%;
+            margin-bottom: 30px;
+            background-size: 105%;
             background-position: center;
             position: relative;
         }
@@ -270,6 +326,19 @@ a{
             background: cover;
             background: url('images/dribbble small/3.jpg');
             background-size: 100%;
+            background-position: center;
+            margin-bottom: 30px;
+            background-size: 100%;
+            transition: background-size 0.3s;
+            transition-timing-function: ease;
+        }
+        .art-img:hover{
+            width:100%;
+            padding-top: 100%;
+            background-repeat: no-repeat;
+            background: cover;
+            background: url('images/dribbble small/3.jpg');
+            background-size: 105%;
             background-position: center;
             margin-bottom: 30px;
         }
@@ -351,8 +420,8 @@ a{
         }
         
         .home{
-            margin-top: 15vh;
-            margin-bottom: 32vh;
+            padding-top: 15vh;
+            padding-bottom: 32vh;
             margin-left: auto;
             margin-right: auto;
             max-width: 920px;
