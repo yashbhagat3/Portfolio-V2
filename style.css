@@ -95,7 +95,7 @@ a{
             display: inline-block;
             list-style-type: none;
             margin: 0;
-            padding: 0;
+            padding-right: 0px;
             position: relative;
             right: 0;
             height: 100%;
@@ -106,14 +106,6 @@ a{
         }
 
         #next2:hover{
-            display: inline-block;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            position: relative;
-            right: 0;
-            height: 100%;
-            float:right;
             background-size: 105%;
         }
         #nextpic{
@@ -377,6 +369,13 @@ a{
             padding-bottom: 12px;
         }
 
+        .arrow-dribbble{
+            display: inline-block;
+            max-width: 730px;
+            color: #000000;
+            font-weight: 400;
+        }
+
         p.desc{
             color: white;
             display: inline-block;
@@ -477,12 +476,13 @@ a{
             color: #000000;
             font-weight: 400;
         }
-        #checkout2{
+        #arrow-dribbble{
             display: inline-block;
             max-width: 730px;
-            color: #59a6ff;
-            font-weight: 500;
+            color: #00000000;
+            font-weight: 400;
         }
+
         .nb-spinner {
             height: 100px;
             width: 100px;
