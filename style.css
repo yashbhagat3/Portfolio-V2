@@ -127,6 +127,7 @@ a{
             margin-bottom: 30px;
             transition: all 0.3s;
             transition-timing-function: ease-out;
+            cursor: pointer;
         }
         #nextpic:hover{
            
@@ -231,10 +232,6 @@ a{
             background-size: 100%;
             background-position: bottom;
             vertical-align: top;
-            animation: wave ease-in-out 1s both;
-            animation-iteration-count: initial;
-            backface-visibility: hidden;
-            transform-origin: 70% 50%;
             cursor: pointer;
         }
         #wave:hover{
