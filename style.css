@@ -471,13 +471,17 @@ a{
         #fm{
           margin:0;
         }
-        #checkout{
-          position: absolute;
-          top: 0;
-          right: 30px;
-          margin-top: 5px;
-          display: block;
-          text-decoration: underline;
+        #checkout1{
+            display: inline-block;
+            max-width: 730px;
+            color: #000000;
+            font-weight: 400;
+        }
+        #checkout2{
+            display: inline-block;
+            max-width: 730px;
+            color: #59a6ff;
+            font-weight: 500;
         }
         .nb-spinner {
             height: 100px;
