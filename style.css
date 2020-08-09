@@ -227,7 +227,7 @@ a{
         }
         #wave:hover{
             animation: wave ease-in-out 1s both;
-            animation-iteration-count: initial;
+            animation-iteration-count: infinite;
             backface-visibility: hidden;
             transform-origin: 70% 50%;
         }
