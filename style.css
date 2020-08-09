@@ -581,11 +581,15 @@ a{
         
     }
     .nav-container input:checked ~ .checkmark {
-        color: #2365B1;
+        color:  #2365B1;
+        opacity: 1;
+        padding-bottom: 2px;
         font-weight: 400;
     }
     .nav-container:hover input ~ .checkmark {
-        color: #2365B1;
+        color:  #2365B1;
+        opacity: 1;
+        padding-bottom: 2px;
         font-weight: 400;
     }  
     #loader{
