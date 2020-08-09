@@ -264,10 +264,11 @@ a{
             display: inline-grid;
         }
         .item-work{
-            box-shadow: 0px 20px 50px 20px #151c5801;
+            box-shadow: 0px 20px 50px 20px #151c5800;
             background-color: #ffffff00;
             margin: -8px;
             padding: 8px;
+            
             color: #000000;
             background-size: 100%;
             margin-bottom: 32px;
@@ -280,7 +281,7 @@ a{
         .item-work:hover{
             padding-bottom: 8px;
             margin-bottom: 24px;
-            color: #1b466a;
+            color: #2365B1;
             background-size: 103%;
             box-shadow: 0px 20px 50px 20px #151c5814;
             cursor: pointer;
@@ -290,7 +291,7 @@ a{
 
         .item-dribbble{
             color: #000000;
-            box-shadow: 0px 20px 50px 20px #151c5801;
+            box-shadow: 0px 20px 50px 20px #151c5800;
             background-color: #ffffff00;
             margin: -8px;
             padding: 8px;
