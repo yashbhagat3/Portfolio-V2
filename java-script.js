@@ -1,6 +1,8 @@
 $(window).on("load",function(){
     $("#loader").fadeOut("slow");
+
 })
+
 function openNav() {
     document.getElementById("fade").style.display = "block";
     document.getElementById("cross").style.display = "block";
@@ -76,50 +78,5 @@ var currentScrollPos = window.pageYOffset;
     document.getElementById("contact-nav2").checked=false;
   }
 }
-function hidess(){
-    document.getElementById("slide-show").style.display="none";
-}
 
-function showss(n)
-{
-    document.getElementById("slide-show").style.display="flex";
-    document.getElementById("back").style.display="flex";
-    let myElements = document.querySelectorAll(".art-all-ss");
 
-    for (let i = 0; i < myElements.length; i++) {
-        myElements[i].style.display = "none";
-    }
-    myElementsp[n-1].style.display = "block";
-}
-
-function prev()
-{
-    let myElements = document.querySelectorAll(".art-all-ss");
-
-    for (let i = 0; i < myElements.length; i++) {
-
-        if(myElements[i].style.display == "block")
-        {
-            myElements[i].style.display ="none";
-            myElements[(i-1+myElements.length)%myElements.length].style.display = "block";
-            break;
-        }
-    }
-    //alert("DONE");
-}
-
-function next()
-{
-    let myElements = document.querySelectorAll(".art-all-ss");
-
-    for (let i = 0; i < myElements.length; i++) {
-
-        if(myElements[i].style.display == "block")
-        {
-            myElements[i].style.display = "none";
-            myElements[(i+1+myElements.length)%myElements.length].style.display = "block";
-            break;
-        }
-    }
-    //alert("DONE");
-}
