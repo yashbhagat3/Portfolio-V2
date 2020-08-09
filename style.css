@@ -559,12 +559,12 @@ a{
 
         .dummyanim{
             opacity:0;
-            transform: translateY(40px);
+            transform: translateY(60px);
         }
 
         .dummyanim.reveal
         {
-            animation: reveal ease 0.8s forwards;
+            animation: reveal ease 1s forwards;
         }
 
         @keyframes reveal {
