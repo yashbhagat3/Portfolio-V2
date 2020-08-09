@@ -189,7 +189,7 @@ a{
         #illustration{
             width: 100%;
         }
-        #heading{
+        .heading{
             font-size : 38px;
             font-family: Playfair Display;
             color: var(--heading-color);
@@ -201,7 +201,7 @@ a{
             max-width: 730px;
             margin-bottom: 80px;
         }
-        #subtext{
+        .subtext{
             max-width: 540px;
         }
         #contact{
@@ -276,7 +276,6 @@ a{
             background-color: #ffffff00;
             margin: -8px;
             padding: 8px;
-            
             color: #000000;
             background-size: 100%;
             margin-bottom: 32px;
@@ -555,6 +554,21 @@ a{
             margin-right:auto;
             padding-bottom:160px;
             max-width: 920px;
+
+        }
+
+        .dummyanim{
+            opacity:0;
+            transform: translateY(40px);
+        }
+
+        .dummyanim.reveal
+        {
+            animation: reveal ease 0.8s forwards;
+        }
+
+        @keyframes reveal {
+        to { transform: translateY(0); opacity: 1; }
         }
 
         .dribbble a {
