@@ -437,6 +437,11 @@ a{
             grid-column-gap: 30px;
             margin-top: 64px;
         }
+        .c-art2{
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 30px;
+            margin-top: 64px;
+        }
         .art-img{
             width:100%;
             padding-top: 100%;
