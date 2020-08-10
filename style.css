@@ -621,7 +621,7 @@ a{
         font-weight: 400;
     }  
     #loader{
-        height: -webkit-fill-available;;
+        height: -webkit-fill-available;
         width: 100%;
         background-color: white;
         position: absolute;
@@ -645,7 +645,7 @@ a{
     .loader-content{
         display: block;
         position: absolute;
-        color: #8836FF;
+        color: var(--link-color1);
         text-align: center;
     }
 
@@ -654,7 +654,7 @@ a{
       .nb-spinner {
         margin: 0;
         background: transparent;
-        border-top: 4px solid #C749FF;
+        border-top: 4px solid var(--link-color1);
         border-right: 4px solid transparent;
         border-radius: 50%;
         -webkit-animation: 1s spin linear infinite;
