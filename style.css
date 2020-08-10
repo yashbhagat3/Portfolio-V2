@@ -497,8 +497,8 @@ a{
         }
 
         .nb-spinner {
-            height: 100px;
-            width: 100px;
+            height: 40px;
+            width: 40px;
         }
         #loader-img{
             width: 48px;
@@ -654,8 +654,8 @@ a{
       .nb-spinner {
         margin: 0;
         background: transparent;
-        border-top: 4px solid var(--link-color1);
-        border-right: 4px solid transparent;
+        border-top: 2px solid var(--link-color1);
+        border-right: 2px solid transparent;
         border-radius: 50%;
         -webkit-animation: 1s spin linear infinite;
         animation: 1s spin linear infinite;
