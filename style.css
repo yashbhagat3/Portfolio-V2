@@ -630,7 +630,7 @@ a{
     #loader{
         height: -webkit-fill-available;
         width: 100%;
-        background-color: white;
+        
         position: absolute;
         z-index: 10;
         display: flex;
