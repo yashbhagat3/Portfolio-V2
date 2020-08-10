@@ -1,5 +1,5 @@
 $(window).on("load",function(){
-    //$("#loader").fadeOut("slow");
+    $("#loader").fadeOut("slow");
     $('dummyanim').first().addClass('reveal');
 
     $('.main').children().each(function () 

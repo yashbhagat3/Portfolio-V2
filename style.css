@@ -628,7 +628,7 @@ a{
         font-weight: 400;
     }  
     #loader{
-        height: -webkit-fill-available;
+        height: 70vh;
         width: 100%;
         background-color: #ffffff;
         position: absolute;
