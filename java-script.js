@@ -14,8 +14,10 @@ $(window).on("load",function(){
 
 })
 
+
 $(window).scroll(function () 
 {
+    
     var scrolled = $(this).scrollTop();
     var interval = 0;
     
