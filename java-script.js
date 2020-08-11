@@ -14,6 +14,17 @@ $(window).on("load",function(){
 
 })
 
+function openNav() {
+    document.getElementById("fade").style.display = "block";
+    document.getElementById("cross").style.display = "block";
+    document.getElementById("Hamburger").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("fade").style.display = "none";
+    document.getElementById("cross").style.display = "none";
+    document.getElementById("Hamburger").style.width = "0px";
+}
 
 $(window).scroll(function () 
 {
