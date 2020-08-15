@@ -255,7 +255,8 @@ a{
         }
         .heading{
             font-size : 38px;
-            font-family: Playfair Display;
+            font-family: Inter;
+            font-weight: 400;
             color: var(--heading-color);
             max-width: 730px;
             line-height: 56px;
@@ -689,8 +690,9 @@ a{
         }
         .heading{
             font-size : 38px;
-            font-family: Playfair Display;
+            font-family: Inter;
             color: var(--heading-color);
+            font-weight: 400;
             max-width: 730px;
             line-height: 56px;
             margin-bottom: 24px;
