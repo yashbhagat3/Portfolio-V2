@@ -24,7 +24,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="java-script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -40,7 +40,7 @@
                 <label class="nav-container">
                 <a href="#home" onclick="shownav()"><li class="nav-item">
                         <input type="radio" name="nav" id="home-nav2">
-                        <span class="checkmark" style="color: #2365B1">HOME</span> 
+                        <span class="checkmark" style="color: #2365B1">DESIGN</span> 
                 </li></a>
                 </label>
                 <label class="nav-container">
@@ -49,12 +49,12 @@
                         <span class="checkmark">ART</span>
                 </li></a>
                 </label>
-                <label class="nav-container">
+                <!-- <label class="nav-container">
                 <a href="about" onclick="shownav()"><li class="nav-item" >
                         <input type="radio" name="nav" id="art-nav2">
                         <span class="checkmark">ABOUT</span>
                 </li></a>
-                </label>
+                </label> -->
                 <a href="Yash_Bhagat_Resume.pdf" target="_blank">
                     <li class="nav-item">RESUME</li>
                 </a>
@@ -307,15 +307,15 @@
                 </div>
                 <div id="next1" class="dummyanim">
                     <div id="designation" style="max-width:635px">
-                        Currently I'm a final-year Computer Science student at BITS Pilani, Rajasthan and working with Pepper Content as a UI/UX Intern. 
+                        Currently I'm a final-year Computer Science student at BITS Pilani, Rajasthan who loves crafting digital products. Feel free to reach out to me. 
                         In my free time you can find me browsing the web, working on a new artwork or making travel plans. <br>
                         <t style="font-weight: 400; color: black;">Looking for full time roles starting July 2021.</t>
                     </div>
                 </div>
-                <div id="next2" class="dummyanim">
+                <!-- <div id="next2" class="dummyanim">
                     <div id="nextpic">
                     </div>
-                </div>
+                </div> -->
                 <div id="next1" class="dummyanim" style="vertical-align: middle;">
                     <div id="contact">
                         Get in touch  
@@ -329,13 +329,13 @@
                         </div>
                     </a>
                 </div>
-                <div id="next2" class="dummyanim" style="width: 160px;">
+                <!-- <div id="next2" class="dummyanim" style="width: 160px;">
                     <a  href="https://www.dribbble.com/yashbhagat" target="_blank">
                         <div class="links"  style="padding-top: 0px; margin-left: 0px;">
                             More about me ->
                         </div>
                     </a>
-                </div>
+                </div> -->
             </div>
 
 
@@ -410,9 +410,7 @@
                 <img id="cross" src="images/close-24px (1).svg" onclick="closeNav()">
                 <ul class="navigation">
                     <li class="nav-item" id="home-nav1"><a href="#home" onclick="closeNav()">HOME</a></li>
-                    <li class="nav-item" id="work-nav1"><a href="#work" onclick="closeNav()">WORK</a></li>
-                    <li class="nav-item" id="art-nav1"><a href="#art" onclick="closeNav()">ART</a></li>
-                    <li class="nav-item" id="contact-nav1"><a href="#footer" onclick="closeNav()">CONTACT</a></li>
+                    <li class="nav-item" id="art-nav1"><a href="./art" onclick="closeNav()">ART</a></li>
                     <li class="nav-item"><a href="Yash_Bhagat_Resume.pdf" >RESUME</a></li>
                 </ul>
             </div>
@@ -480,22 +478,10 @@
                             </a>
                         </div>
                         <div class="title-work">
-                            Furniture Visualization App
+                            HelloVoRld Web Design
                         </div>
                         <div class="desc-work">
-                            UI/UX Case Study
-                        </div>
-                    </div>
-                    <div class="item-work dummyanim">
-                        <div class="work-img" style="background-image: url('images/apogee_preview.jpg');" width="100%">
-                            <a  href="https://www.behance.net/gallery/99301901/HelloVoRld-Website" target="_blank">
-                            </a>
-                        </div>
-                        <div class="title-work">
-                            Furniture Visualization App
-                        </div>
-                        <div class="desc-work">
-                            UI/UX Case Study
+                            Web Design Case Study
                         </div>
                     </div>
                     <div class="item-work dummyanim">
@@ -504,10 +490,22 @@
                             </a>
                         </div>
                         <div class="title-work">
-                            Furniture Visualization App
+                            TEDxBITSPilani 2019
                         </div>
                         <div class="desc-work">
-                            UI/UX Case Study
+                            Branding, Graphic Design
+                        </div>
+                    </div>
+                    <div class="item-work dummyanim">
+                        <div class="work-img" style="background-image: url('images/apogee_preview.jpg');" width="100%">
+                            <a  href="https://www.behance.net/gallery/99301901/HelloVoRld-Website" target="_blank">
+                            </a>
+                        </div>
+                        <div class="title-work">
+                            Techfest Wallet App
+                        </div>
+                        <div class="desc-work">
+                            UI Design
                         </div>
                     </div>
                     <div class="item-work dummyanim">
@@ -516,10 +514,10 @@
                             </a>
                         </div>
                         <div class="title-work">
-                            Furniture Visualization App
+                            Techfest Website
                         </div>
                         <div class="desc-work">
-                            UI/UX Case Study
+                            Web Design
                         </div>
                     </div>
                     
@@ -550,13 +548,7 @@
                 </div>
                 <div class="grid-container c-dribbble">
                     
-                    <div class="item-dribbble dummyanim" onclick="window.open('https://dribbble.com/shots/11354801-CoViD-19-crowd-monitoring-app-for-businesses','mywindow');">
-                            <div class="dribbble-img" style="background-image: url('images/dribbble small/1.jpg');">
-                            </div>
-                            <div class="title-dribbble">
-                                Furniture Visualization App
-                            </div>
-                    </div>
+                    
                     
                     <div class="item-dribbble dummyanim">
                         <div class="dribbble-img" style="padding-top: 0%; overflow: hidden;">
@@ -565,6 +557,14 @@
                                     <source src="images/dribbble small/2.mp4" type="video/mp4">
                                 </video>
                             </a>
+                        </div>
+                        <div class="title-dribbble">
+                            Furniture Visualization App
+                        </div>
+                    </div>
+
+                    <div class="item-dribbble dummyanim" onclick="window.open('https://dribbble.com/shots/11354801-CoViD-19-crowd-monitoring-app-for-businesses','mywindow');">
+                        <div class="dribbble-img" style="background-image: url('images/dribbble small/1.jpg');">
                         </div>
                         <div class="title-dribbble">
                             Furniture Visualization App
@@ -638,19 +638,19 @@
                         <div class="art-img" style="background-image: url('images/art/Mask Group 16.jpg');"></div>
                     </div>
                     <div class="grid-item art dummyanim">
-                        <div class="art-img" style="background-image: url('images/art/Mask Group 16.jpg');"></div>
+                        <div class="art-img" style="background-image: url('images/art/Mask Group 15.jpg');"></div>
                     </div>
                     <div class="grid-item art dummyanim">
-                        <div class="art-img" style="background-image: url('images/art/Mask Group 16.jpg');"></div>
+                        <div class="art-img" style="background-image: url('images/sketches/Mask Group 15.jpg');"></div>
                     </div>
                     <div class="grid-item art dummyanim">
-                        <div class="art-img" style="background-image: url('images/art/Mask Group 16.jpg');"></div>
+                        <div class="art-img" style="background-image: url('images/sketches/Mask Group 16.jpg');"></div>
                     </div>
                     <div class="grid-item art dummyanim">
-                        <div class="art-img" style="background-image: url('images/art/Mask Group 16.jpg');"></div>
+                        <div class="art-img" style="background-image: url('images/art/Mask Group 17.jpg');"></div>
                     </div>
                     <div class="grid-item art dummyanim">
-                        <div class="art-img" style="background-image: url('images/art/Mask Group 16.jpg');"></div>
+                        <div class="art-img" style="background-image: url('images/art/Mask Group 18.jpg');"></div>
                     </div>
                 </div>
                 
@@ -681,7 +681,7 @@
                         </div>
                     </a>
                 </div>
-                <div id="next2" class="dummyanim">
+                <!-- <div id="next2" class="dummyanim">
                     <div id="nextpic">
                     </div>
                 </div>
@@ -691,14 +691,11 @@
                             More about me ->
                         </div>
                     </a>
-                </div>
+                </div> -->
             </div>
 
 
             <div id="footer">
-                <div id="copyright">
-                    © Yash Bhagat 2020 · Self-coded
-                </div>
                 <ul class="followlinks">
                     <a  href="https://www.instagram.com/yashb1202" target="_blank">
                         <div class="links" id="instagram">
@@ -741,6 +738,9 @@
                         </div>
                     </a>
                 </ul>
+                <div id="copyright">
+                    © Yash Bhagat 2020 · Self-coded
+                </div>
             </div>
 
 
