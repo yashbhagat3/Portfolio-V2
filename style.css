@@ -439,7 +439,7 @@ a{
 
         .c-art2{
             grid-template-columns: 1fr 1fr;
-            grid-column-gap: 30px;
+            grid-column-gap: 16px;
             margin-top: 64px;
         }
 
