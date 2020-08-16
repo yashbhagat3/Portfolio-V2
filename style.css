@@ -732,6 +732,9 @@ a{
             background-position: bottom;
             vertical-align: top;
             cursor: pointer;
+            animation: wave ease-in-out 1s both;
+            animation-iteration-count: 2;
+            transform-origin: 70% 50%;
             
             
         }
@@ -744,10 +747,8 @@ a{
             animation: wave ease-in-out 1s both;
             animation-iteration-count: 2;
             transform-origin: 70% 50%;
-
-
-
         }
+
         @keyframes wave{
             from{-webkit-transform:none;transform:none}
             15%{-webkit-transform:translate3d(-20%,0,0) rotate3d(0,0,1,-10deg);transform:translate3d(-20%,0,0) rotate3d(0,0,1,-10deg)}
