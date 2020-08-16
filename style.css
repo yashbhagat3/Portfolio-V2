@@ -733,7 +733,7 @@ a{
             vertical-align: top;
             cursor: pointer;
             animation: wave ease-in-out 1s both;
-            animation-iteration-count: 2;
+            animation-iteration-count: 4;
             transform-origin: 70% 50%;
             
             
@@ -745,7 +745,7 @@ a{
         }
         .wave.anim{
             animation: wave ease-in-out 1s both;
-            animation-iteration-count: 2;
+            animation-iteration-count: 4;
             transform-origin: 70% 50%;
         }
 
