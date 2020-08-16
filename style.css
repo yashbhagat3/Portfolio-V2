@@ -733,14 +733,20 @@ a{
             vertical-align: top;
             cursor: pointer;
             
-            animation: wave ease-in-out 1s both;
-            animation-iteration-count: 2;
-            transform-origin: 70% 50%;
+            
         }
         .wave:hover{
             animation: wave ease-in-out 1s both;
             animation-iteration-count: infinite;
             transform-origin: 70% 50%;
+        }
+        .wave.anim{
+            animation: wave ease-in-out 1s both;
+            animation-iteration-count: 2;
+            transform-origin: 70% 50%;
+
+
+
         }
         @keyframes wave{
             from{-webkit-transform:none;transform:none}
