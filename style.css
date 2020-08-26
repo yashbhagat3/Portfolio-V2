@@ -255,7 +255,7 @@ a{
         }
         .heading{
             font-size : 38px;
-            font-family: Inter;
+            font-family: DM Sans;
             font-weight: 400;
             color: var(--heading-color);
             max-width: 730px;
@@ -475,7 +475,7 @@ a{
             background-repeat: no-repeat;
             background: cover;
             background: url('images/dribbble small/3.jpg');
-            background-size: 103%;
+            background-size: 100%;
             background-position: center;
             margin-bottom: 30px;
         }
@@ -690,7 +690,7 @@ a{
         }
         .heading{
             font-size : 38px;
-            font-family: Inter;
+            font-family: DM Sans;
             color: var(--heading-color);
             font-weight: 400;
             max-width: 730px;
