@@ -845,7 +845,7 @@ a{
             background: cover;
             margin-bottom: 20px;
             position: relative;
-            background-size: inherit;
+            background-size: 100%;
             transition: background-size 0.3s;
             transition-timing-function: ease-out;
         }
