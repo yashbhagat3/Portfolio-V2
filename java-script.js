@@ -5,7 +5,7 @@ $(window).on("load",function(){
     
     $('.main').children().each(function () 
     {
-        var startToShow = $(this).offset().top + $(this).outerHeight()/5; //fires when a third of the div appears, change the 3 to experiment with different positions
+        var startToShow = $(this).offset().top + $(this).outerHeight()/6; //fires when a third of the div appears, change the 3 to experiment with different positions
         var bottomOfWindow = $(window).scrollTop() + $(window).height();
         if (bottomOfWindow > startToShow)
         {

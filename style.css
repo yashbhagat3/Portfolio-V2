@@ -562,7 +562,7 @@ a{
         }
         .dummyanim{
             opacity:0;
-            transform: translateY(60px);
+            transform: translateY(30px);
         }
         .nav-item:hover{
             color:  #2365b1;
@@ -878,7 +878,7 @@ a{
             display: inline-grid;
         }
         .item-work{
-            color: black;
+            color: var(--heading-color);
             box-shadow: 0px 0px 25px 20px #151c5800;
             background-color: #ffffff00;
             margin: -12px;
@@ -896,15 +896,24 @@ a{
             margin-bottom: 22px;
             color: var(--link-color1);
             background-size: 100%;
-            box-shadow: 0px 20px 50px 20px #151c5814;
+            /* box-shadow: 0px 20px 50px 20px #151c5814; */
             cursor: pointer;
             background-color: #ffffff;
         
         }
-
+        .item-work:active{
+            padding-bottom: 8px;
+            margin-bottom: 22px;
+            color: var(--link-color1);
+            background-size: 100%;
+            /* box-shadow: 0px 20px 50px 20px #151c580A; */
+            cursor: pointer;
+            background-color: #ffffff;
+        
+        }
         .item-dribbble{
-            color: #000000;
-            box-shadow: 0px 20px 50px 20px #151c5800;
+            color: var(--heading-color);
+            /* box-shadow: 0px 20px 50px 20px #151c5800; */
             background-color: #ffffff00;
             margin: -12px;
             padding: 12px;
@@ -922,7 +931,7 @@ a{
             margin-bottom: 26px;
             color: var(--link-color1);
             background-size: 100%;
-            box-shadow: 0px 20px 50px 20px #151c5814;
+            /* box-shadow: 0px 20px 50px 20px #151c5814; */
             cursor: pointer;
             background-color: #ffffff;
         
@@ -941,17 +950,31 @@ a{
             padding-top: 75%;
             background-position: center;
             background: cover;
+            outline:8px solid #ffffff00;
             margin-bottom: 20px;
             position: relative;
             background-size: 100%;
-            transition: background-size 0.3s;
+            box-shadow: 0px 10px 50px 20px #151c5800;
+            transition: all 0.3s;
             transition-timing-function: ease-out;
+        }
+
+        .work-img:hover{
+            outline:8px solid #ffffffff;
+            box-shadow: 0px 20px 50px 20px #151c5828;
+            cursor: pointer;
+        }
+
+        .work-img:active{
+            outline:8px solid #ffffffff;
+            box-shadow: 0px 20px 50px 20px #151c5814;
+            cursor: pointer;
         }
 
         
 
         .title-work{
-            font-weight: 400; 
+            font-weight: 500; 
             color: inherit;
             font-size: 20px;
             line-height: 24px;
@@ -968,7 +991,7 @@ a{
         }
         .title-dribbble{
             /* padding-left:8px; */
-            font-weight: 400; 
+            font-weight: 500; 
             color: inherit;
             font-size: 16px;
             line-height: 20px;
@@ -979,20 +1002,64 @@ a{
             grid-column-gap: 30px;
             margin-top: 64px;
         }
+    
+
         .dribbble-img{
-            line-height: 0;
             width:100%;
             padding-top: 75%;
             background-position: center;
-            background-repeat: no-repeat;
             background: cover;
+            outline:8px solid #ffffff00;
             margin-bottom: 20px;
             position: relative;
             background-size: 100%;
-            transition: background-size 0.3s;
+            box-shadow: 0px 10px 50px 20px #151c5800;
+            transition: all 0.3s;
             transition-timing-function: ease-out;
         }
+
+        .dribbble-img:hover{
+            outline:8px solid #ffffffff;
+            box-shadow: 0px 20px 50px 20px #151c5828;
+            cursor: pointer;
+        }
+
+        .dribbble-img:active{
+            outline:8px solid #ffffffff;
+            box-shadow: 0px 20px 50px 20px #151c5814;
+            cursor: pointer;
+        }
         
+        .button{
+            color: var(--link-color1);
+            margin-top: -12px;
+            box-shadow: 0px 10px 50px 10px #151c580A;
+            /* border-radius: 50px; */
+            background-color: #ffffff00;
+            padding: 12px 24px;
+            display: inline-grid;
+            transition: all 0.2s;
+            transition-timing-function: ease-out;
+            cursor: default;
+        }
+        .button:hover{
+            color: var(--link-color2);
+            box-shadow: 0px 10px 50px 10px #151c5814;
+            cursor: pointer;
+            background-color: #ffffff;
+        
+        }
+        .button:active{
+            color: var(--link-color2);
+            box-shadow: 0px 10px 50px 10px #151c580A;
+            cursor: pointer;
+            background-color: #ffffff;
+        
+        }
+
+
+
+
         .c-art{
             grid-template-columns: 1fr 1fr 1fr;
             grid-column-gap: 30px;
