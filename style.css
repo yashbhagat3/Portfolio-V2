@@ -606,6 +606,7 @@ a{
             vertical-align: middle;
             transition: 0.3s;
             position: sticky;
+            margin-top: 40px;
         }
 
         #footer {
