@@ -766,7 +766,7 @@ a{
             margin-bottom: 80px;
         }
         .subtext{
-            max-width: 540px;
+            max-width: 635px;
         }
         #contact{
             display: inline-block;
@@ -903,7 +903,6 @@ a{
             background-size: 100%;
             /* box-shadow: 0px 20px 50px 20px #151c5814; */
             cursor: pointer;
-            background-color: #ffffff;
         
         }
         .item-work:active{
@@ -913,7 +912,6 @@ a{
             background-size: 100%;
             /* box-shadow: 0px 20px 50px 20px #151c580A; */
             cursor: pointer;
-            background-color: #ffffff;
         
         }
         .item-dribbble{
@@ -938,7 +936,6 @@ a{
             background-size: 100%;
             /* box-shadow: 0px 20px 50px 20px #151c5814; */
             cursor: pointer;
-            background-color: #ffffff;
         
         }
         ::selection {
