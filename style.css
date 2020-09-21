@@ -57,7 +57,32 @@ a{
             display: none;
         }
         
+        .button{
+            color: var(--link-color1);
+            margin-top: -12px;
+            box-shadow: 0px 10px 50px 10px #151c5814;
+            border-radius: 50px;
+            background-color: #ffffff;
+            padding: 12px 24px;
+            display: inline-grid;
+            transition: all 0.2s;
+            transition-timing-function: ease-out;
+            cursor: default;
+        }
+        .button:hover{
+            color: var(--link-color2);
+            box-shadow: 0px 10px 50px 10px #151c5814;
+            cursor: pointer;
+            background-color: #ffffff;
         
+        }
+        .button:active{
+            color: var(--link-color2);
+            box-shadow: 0px 10px 50px 10px #151c580A;
+            cursor: pointer;
+            background-color: #ffffff;
+        
+        }
 
         .navigation{
             display: inline-block;
@@ -70,8 +95,8 @@ a{
             float:right;
         }
         .dummyanim{
-            opacity:0;
-            transform: translateY(60px);
+            opacity:0.5;
+            transform: translateY(30px);
         }
 
         .dummyanim.reveal
@@ -428,7 +453,7 @@ a{
             color: var(--subtext-color);
             padding-left:8px;
             font-size: 16px;
-            line-height: 20px;
+            line-height: 28px;
             padding-bottom: 16px;
         }
         .title-dribbble{
