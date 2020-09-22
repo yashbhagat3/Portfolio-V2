@@ -328,7 +328,7 @@ a{
         #contact{
             display: inline-block;
             max-width: 730px;
-            color: #000000;
+            color:var(--heading-color);
             font-weight: 400;
         }
         #pointer{
@@ -814,7 +814,7 @@ a{
         #contact{
             display: inline-block;
             max-width: 730px;
-            color: #000000;
+            color: var(--heading-color);
             font-weight: 400;
         }
         #pointer{
