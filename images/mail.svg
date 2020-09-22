@@ -1,0 +1,14 @@
+<svg id="icon_outlined_application_mail" data-name="icon/outlined/application/mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="icon_outlined_application_mail_clip_mask_" data-name="icon/outlined/application/mail (clip mask)" width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="icon_outlined_application_mail_clip_mask_2" data-name="icon/outlined/application/mail (clip mask)" width="24" height="24" fill="none"/>
+  <g id="icon_outlined_application_mail-2" data-name="icon/outlined/application/mail" clip-path="url(#clip-path)">
+    <g id="icon_outlined_application_mail_clip_group_" data-name="icon/outlined/application/mail (clip group)">
+      <rect id="icon_outlined_application_mail_style_" data-name="icon/outlined/application/mail (style)" width="24" height="24" fill="none"/>
+      <path id="Vector" d="M20.25,16.5H.75A.751.751,0,0,1,0,15.75V.75A.751.751,0,0,1,.75,0h19.5A.751.751,0,0,1,21,.75v15A.751.751,0,0,1,20.25,16.5ZM1.565,2.5h0l.121.093,0,12.218H19.312V2.6L11.3,8.819a1.311,1.311,0,0,1-1.61,0l-8-6.222Zm.4-1.592h0l.187.145.815.635L10.5,7.546,18.034,1.69l1-.78.92,1.184-.647.5.65-.5L19.04.909l-1,.779-15.072,0L2.15,1.055,1.962.909Zm0,0L1.039,2.091l.525.41h0l-.523-.408Z" transform="translate(1.5 3.75)"/>
+    </g>
+  </g>
+</svg>

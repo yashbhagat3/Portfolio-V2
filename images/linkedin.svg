@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20.797" height="20.797" viewBox="0 0 20.797 20.797"><defs><style>.a{fill:#fff;}</style></defs><path class="a" d="M21.924,21.807h.005V14.179c0-3.731-.8-6.605-5.165-6.605a4.528,4.528,0,0,0-4.079,2.242h-.061V7.922H8.489V21.807H12.8V14.932c0-1.81.343-3.561,2.585-3.561,2.209,0,2.242,2.066,2.242,3.677v6.76Z" transform="translate(-1.133 -1.011)"/><path class="a" d="M.4,7.977H4.708V21.861H.4Z" transform="translate(-0.053 -1.065)"/><path class="a" d="M2.5,0a2.509,2.509,0,1,0,2.5,2.5A2.5,2.5,0,0,0,2.5,0Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="icon_outlined_brand-and-logos_linkedin_clip_mask_" data-name="icon/outlined/brand-and-logos/linkedin (clip mask)" width="24" height="24" transform="translate(-0.001)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_outlined_brand-and-logos_linkedin" data-name="icon/outlined/brand-and-logos/linkedin" transform="translate(0)">
+    <rect id="icon_outlined_brand-and-logos_linkedin_clip_mask_2" data-name="icon/outlined/brand-and-logos/linkedin (clip mask)" width="24" height="24" fill="none"/>
+    <g id="icon_outlined_brand-and-logos_linkedin-2" data-name="icon/outlined/brand-and-logos/linkedin" transform="translate(0.001)" clip-path="url(#clip-path)">
+      <g id="icon_outlined_brand-and-logos_linkedin_clip_group_" data-name="icon/outlined/brand-and-logos/linkedin (clip group)">
+        <rect id="icon_outlined_brand-and-logos_linkedin_style_" data-name="icon/outlined/brand-and-logos/linkedin (style)" width="24" height="24" transform="translate(-0.001)" fill="none"/>
+        <path id="Vector" d="M17.243,18.75H1.507A1.508,1.508,0,0,1,0,17.243V1.507A1.508,1.508,0,0,1,1.507,0H17.243A1.508,1.508,0,0,1,18.75,1.507V17.243A1.508,1.508,0,0,1,17.243,18.75ZM1.507,1.5c0,.071-.005,5.367-.007,15.743.005,0,.017,0,15.743.007,0-.005,0-.017.007-15.744-.014,0-5.311,0-15.744-.006Zm8.578,14.478H7.305V7.029H9.975V8.252h.038a2.943,2.943,0,0,1,2.632-1.446c2.931,0,3.335,2.049,3.335,4.263v4.908H13.2V11.625c0-1,0-2.372-1.446-2.372-1.47,0-1.669,1.161-1.669,2.3v4.428Zm-4.523,0H2.78V7.029H5.562v8.948ZM4.171,5.806A1.614,1.614,0,1,1,5.784,4.193,1.6,1.6,0,0,1,4.171,5.806Z" transform="translate(2.624 2.625)"/>
+      </g>
+    </g>
+  </g>
+</svg>

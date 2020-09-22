@@ -2,8 +2,8 @@
     --bg-color: #ffffff;
     --heading-color: #333333;
     --subtext-color: #00000080;
-    --link-color1: #1b466a;
-    --link-color2: #2365B1;
+    --link-color1: #333333;
+    --link-color2: #000000;
 
 }
 html {
@@ -56,7 +56,25 @@ a{
         #desktop {
             display: none;
         }
-        
+        #socialicons{
+            display: inline-block;
+            opacity: 0.6;
+            width: 24px;
+            padding-top: 24px;
+            margin-right: 32px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: bottom;
+            vertical-align: bottom;
+            transition: all 0.2s;
+            transition-timing-function: ease-out;
+        }
+
+        #socialicons:hover{
+            
+            opacity: 1;
+            
+        }
         .button{
             color: var(--link-color1);
             margin-top: -12px;
@@ -255,7 +273,7 @@ a{
             position: relative;
             right: 0;
             height: 100%;
-            float:right;
+            float:left;
         }
 
         .links{
@@ -368,16 +386,16 @@ a{
         }
 
         #email{
-            box-shadow: inset 0 -1.5px 0 #2a82e7;
+            box-shadow: inset 0 -1.5px 0 var(--link-color1);
             display: inline-block;
             max-width: 730px;
-            color: #1b466a;
+            color: var(--link-color2);
             font-weight: 400;
             transition: all 0.3s;
             transition-timing-function: ease;
         }
         #email:hover{
-            box-shadow: inset 0 -28px 0 #2a82e7;
+            box-shadow: inset 0 -28px 0 var(--link-color1);
             color: #ffffff;
         }
         .grid-container{
@@ -719,7 +737,7 @@ a{
             padding-bottom: 0px;
             display: inline-block;
             margin-left: 32px;
-            color: var(--link-color1);
+            color: var(--subtext-color);
             font-size: 16px;
             font-weight: 400;
             line-height: 16px;
@@ -810,6 +828,26 @@ a{
             background-position: bottom;
             vertical-align: bottom;
         }
+
+        #socialicons{
+            display: inline-block;
+            opacity: 0.6;
+            width: 24px;
+            padding-top: 24px;
+            margin-left: 32px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: bottom;
+            vertical-align: bottom;
+            transition: all 0.2s;
+            transition-timing-function: ease-out;
+        }
+
+        #socialicons:hover{
+            
+            opacity: 1;
+            
+        }
         #briefcase{
             display: inline-block;
             width: 24px;
@@ -889,16 +927,16 @@ a{
         }
 
         #email{
-            box-shadow: inset 0 -1.5px 0 #2a82e7;
+            box-shadow: inset 0 -1.5px 0 var(--link-color1);
             display: inline-block;
             max-width: 730px;
-            color: #1b466a;
+            color: var(--link-color2);
             font-weight: 400;
             transition: all 0.3s;
             transition-timing-function: ease;
         }
         #email:hover{
-            box-shadow: inset 0 -28px 0 #2a82e7;
+            box-shadow: inset 0 -28px 0 var(--link-color1);
             color: #ffffff;
         }
         .grid-container{
@@ -924,7 +962,7 @@ a{
         .item-work:hover{
             padding-bottom: 8px;
             margin-bottom: 32px;
-            color: var(--link-color1);
+            color: var(--link-color2);
             background-size: 100%;
             /* box-shadow: 0px 20px 50px 20px #151c5814; */
             cursor: pointer;
@@ -957,7 +995,7 @@ a{
             padding: 12px;
             padding-bottom: 8px;
             margin-bottom: 26px;
-            color: var(--link-color1);
+            color: var(--link-color2);
             background-size: 100%;
             /* box-shadow: 0px 20px 50px 20px #151c5814; */
             cursor: pointer;

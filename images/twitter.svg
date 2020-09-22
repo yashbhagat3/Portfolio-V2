@@ -1,0 +1,14 @@
+<svg id="icon_outlined_brand-and-logos_twitter" data-name="icon/outlined/brand-and-logos/twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="icon_outlined_brand-and-logos_twitter_clip_mask_" data-name="icon/outlined/brand-and-logos/twitter (clip mask)" width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="icon_outlined_brand-and-logos_twitter_clip_mask_2" data-name="icon/outlined/brand-and-logos/twitter (clip mask)" width="24" height="24" fill="none"/>
+  <g id="icon_outlined_brand-and-logos_twitter-2" data-name="icon/outlined/brand-and-logos/twitter" clip-path="url(#clip-path)">
+    <g id="icon_outlined_brand-and-logos_twitter_clip_group_" data-name="icon/outlined/brand-and-logos/twitter (clip group)">
+      <rect id="icon_outlined_brand-and-logos_twitter_style_" data-name="icon/outlined/brand-and-logos/twitter (style)" width="24" height="24" fill="none"/>
+      <path id="Vector" d="M19.5,1.882a8.014,8.014,0,0,1-2.3.619A3.987,3.987,0,0,0,18.959.3a7.89,7.89,0,0,1-2.536.966A4,4,0,0,0,9.506,4a4.59,4.59,0,0,0,.1.916A11.358,11.358,0,0,1,1.364.731,4.008,4.008,0,0,0,2.6,6.08,4.031,4.031,0,0,1,.795,5.571V5.62A4,4,0,0,0,4,9.544a4.233,4.233,0,0,1-1.052.136,5.316,5.316,0,0,1-.755-.061,4,4,0,0,0,3.736,2.773A8.01,8.01,0,0,1,.966,14.1,8.171,8.171,0,0,1,0,14.051a11.317,11.317,0,0,0,6.138,1.793A11.3,11.3,0,0,0,17.51,4.47c0-.173,0-.347-.012-.52A8.605,8.605,0,0,0,19.5,1.882Z" transform="translate(2.248 4.078)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg id="icon_outlined_brand-and-logos_instagram" data-name="icon/outlined/brand-and-logos/instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="icon_outlined_brand-and-logos_instagram_clip_mask_" data-name="icon/outlined/brand-and-logos/instagram (clip mask)" width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="icon_outlined_brand-and-logos_instagram_clip_mask_2" data-name="icon/outlined/brand-and-logos/instagram (clip mask)" width="24" height="24" fill="none"/>
+  <g id="icon_outlined_brand-and-logos_instagram-2" data-name="icon/outlined/brand-and-logos/instagram" transform="translate(0)" clip-path="url(#clip-path)">
+    <g id="icon_outlined_brand-and-logos_instagram_clip_group_" data-name="icon/outlined/brand-and-logos/instagram (clip group)">
+      <rect id="icon_outlined_brand-and-logos_instagram_style_" data-name="icon/outlined/brand-and-logos/instagram (style)" width="24" height="24" fill="none"/>
+      <path id="Vector" d="M10.364,18.737H8.375c-.866,0-1.873,0-2.873-.061a5.537,5.537,0,0,1-3.928-1.512A5.534,5.534,0,0,1,.061,13.236C0,12.1,0,10.955,0,9.844v-.95C0,7.784,0,6.636.061,5.5A5.537,5.537,0,0,1,1.573,1.573,5.535,5.535,0,0,1,5.5.061C6.511,0,7.537,0,8.418,0h1.9c.881,0,1.907,0,2.918.061a5.534,5.534,0,0,1,3.928,1.512A5.535,5.535,0,0,1,18.676,5.5c.064,1.126.062,2.266.061,3.369v.022q0,.238,0,.476,0,.27,0,.54c0,1.089,0,2.216-.061,3.328a5.534,5.534,0,0,1-1.512,3.928,5.534,5.534,0,0,1-3.928,1.512C12.237,18.732,11.229,18.737,10.364,18.737ZM7.737,1.67a13.394,13.394,0,0,0-3.9.388,3.041,3.041,0,0,0-1.074.708,2.987,2.987,0,0,0-.707,1.073,17,17,0,0,0-.383,4.872c0,.244,0,.466,0,.657s0,.413,0,.657A17.012,17.012,0,0,0,2.056,14.9a2.99,2.99,0,0,0,.707,1.074,3,3,0,0,0,1.074.707,13.336,13.336,0,0,0,3.891.388c.345,0,.677,0,.97-.006h.006c.245,0,.469,0,.661,0s.413,0,.657,0c.294,0,.626.006.973.006a13.288,13.288,0,0,0,3.9-.39,3.2,3.2,0,0,0,1.781-1.781,16.933,16.933,0,0,0,.384-4.871c0-.243,0-.464,0-.655s0-.414,0-.657a17,17,0,0,0-.383-4.872,3.2,3.2,0,0,0-1.781-1.781A13.394,13.394,0,0,0,11,1.67c-.345,0-.678,0-.971.006-.244,0-.466,0-.658,0s-.414,0-.657,0C8.415,1.674,8.082,1.67,7.737,1.67ZM9.366,14.176a4.81,4.81,0,1,1,4.807-4.807A4.812,4.812,0,0,1,9.366,14.176Zm0-7.932A3.124,3.124,0,1,0,12.49,9.369,3.128,3.128,0,0,0,9.366,6.244Zm5-.754a1.123,1.123,0,1,1,.43-2.161,1.121,1.121,0,0,1,.692,1.038A1.124,1.124,0,0,1,14.37,5.49Z" transform="translate(2.634 2.631)"/>
+    </g>
+  </g>
+</svg>
