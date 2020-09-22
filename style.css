@@ -436,8 +436,8 @@ a{
         }
         
         ::selection {
-              color: #2365b1;
-              background: #f0f2ff;
+              /* color: #2365b1; */
+              background: #cccccc;
           }
         .c-work{
             grid-template-columns: 1fr;
