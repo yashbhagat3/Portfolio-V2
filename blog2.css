@@ -37,6 +37,7 @@ a {
 }
 
 .blog {
+    color: var(--heading-color);
     max-width: 1110px;
     margin: auto;
     padding-left: 16px;
