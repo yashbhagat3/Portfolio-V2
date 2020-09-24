@@ -7,7 +7,8 @@
     --link-color1: #596dff;
     --link-color2: #132acc;
     --blog-color: #343e57;
-    --blog-grey: #818699;
+    --blog-body: #818699;
+    --blog-gray: #b8b8b8;
     --blog-blue: #132acc;
 }
 
@@ -17,7 +18,7 @@ html {
 
 body {
     font-family: Inter, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 28px
 }
@@ -41,7 +42,7 @@ a {
 }
 
 .blog {
-    color: var(--blog-color);
+    color: var(--blog-body);
     max-width: 1110px;
     margin: auto;
     padding-left: 16px;
@@ -515,6 +516,12 @@ body {
 
 a,
 a.visited {
+    font-weight: 400;
+    color: var(--blog-color);
+}
+
+a:hover,
+a.visited:hover {
     color: var(--blog-blue);
 }
 
@@ -530,30 +537,34 @@ h3 {
     max-width: 730px;
     letter-spacing: -0.01em;
     line-height: 1.5;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0;
+    color: var(--blog-color);
 }
 
 .page-title {
     font-family: Source Serif Pro, Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 400;
+    color: var(--blog-color);
     margin-top: 0;
 }
 
 h1 {
-    font-size: 26px;
-    margin-top: 26px;
+    font-family: Source Serif Pro;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 36px;
 }
 
 h2 {
-    font-size: 22px;
-    margin-top: 26px;
+    font-size: 24px;
+    margin-top: 24px;
 }
 
 h3 {
     font-size: 18px;
-    margin-top: 26px;
+    margin-top: 18px;
 }
 
 .source {
@@ -829,7 +840,7 @@ strong {
 p {
     margin: auto;
     max-width: 730px;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.75;
     font-family: Inter, Arial, Helvetica, sans-serif;
@@ -871,11 +882,12 @@ code {
 blockquote {
     max-width: 730px;
     font-family: Source Serif Pro;
-    color: var(--blog-grey);
+    font-weight: 400;
+    color: var(--blog-body);
     font-size: 1.25em;
     margin: 1em auto;
     padding-left: 1em;
-    border-left: 3px solid var(--blog-grey);
+    border-left: 3px solid var(--blog-body);
 }
 .bookmark {
     text-decoration: none;
@@ -1006,8 +1018,8 @@ blockquote {
     fill: inherit;
 }
 .block-color-gray {
-    color: rgba(55, 53, 47, 0.6);
-    fill: rgba(55, 53, 47, 0.6);
+    color: var(--blog-gray);
+    fill: var(--blog-gray);
 }
 .block-color-brown {
     color: rgb(100, 71, 58);
