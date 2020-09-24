@@ -36,7 +36,26 @@ a {
     position: fixed
 }
 
+.blog {
+    max-width: 1110px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+
+p {
+    line-height: 1.75;
+    max-width: 645px;
+    margin: auto;
+}
+
 @media screen and (max-width:700px) {
+    .main {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
     body {
         margin: 0;
         background-color: var(--bg-color);
@@ -283,6 +302,7 @@ a {
     #head {
         backdrop-filter: blur(15px);
         top: 0;
+        width: 1100px;
         padding-left: calc(50% - 550px);
         padding-right: calc(50% - 550px);
         border-bottom: 1px solid #0000000d;
@@ -292,7 +312,7 @@ a {
         height: 64px;
         vertical-align: middle;
         transition: .3s;
-        position: sticky
+        position: fixed;
     }
     #footer {
         top: 0;
