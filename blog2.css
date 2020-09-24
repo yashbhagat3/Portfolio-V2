@@ -38,7 +38,6 @@ a {
 
 .blog {
     color: var(--heading-color);
-    max-width: 1110px;
     margin: auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -46,7 +45,41 @@ a {
     padding-bottom: 30vh;
 }
 
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.75em;
+}
+
+.block-color-gray {
+    color: var(--subtext-color);
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+    max-width: 645px;
+    margin: auto;
+    font-size: 56px;
+    font-family: Source Serif Pro;
+    color: var(--heading-color);
+    font-weight: 400;
+    line-height: 80px;
+    margin-bottom: 24px;
+}
+
 p {
+    font-size: 16px;
+    font-family: Inter;
+    color: var(--heading-color);
+    font-weight: 400;
     line-height: 1.75;
     max-width: 645px;
     margin: auto;
