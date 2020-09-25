@@ -1,14 +1,12 @@
-$(window).on("load",function(){
+$(window).on("load", function() {
     $("#loader").fadeOut("slow");
     $('dummyanim').first().addClass('reveal');
     $('wave').first().addClass('anim');
-    
-    $('.main').children().each(function () 
-    {
-        var startToShow = $(this).offset().top + $(this).outerHeight()/6; //fires when a third of the div appears, change the 3 to experiment with different positions
+
+    $('.main').children().each(function() {
+        var startToShow = $(this).offset().top + $(this).outerHeight() / 6; //fires when a third of the div appears, change the 3 to experiment with different positions
         var bottomOfWindow = $(window).scrollTop() + $(window).height();
-        if (bottomOfWindow > startToShow)
-        {
+        if (bottomOfWindow > startToShow) {
             $(this).addClass('reveal');
         }
     });
@@ -27,34 +25,24 @@ function closeNav() {
     document.getElementById("Hamburger").style.width = "0px";
 }
 
-$(window).scroll(function () 
-{
-    
+$(window).scroll(function() {
+
     var scrolled = $(this).scrollTop();
     var interval = 0;
-    
-    $('.grid-container').children().each(function () 
-    {
-        var startToShow = $(this).offset().top + $(this).outerHeight()/3; //fires when a third of the div appears, change the 3 to experiment with different positions
+
+    $('.grid-container').children().each(function() {
+        var startToShow = $(this).offset().top + $(this).outerHeight() / 3; //fires when a third of the div appears, change the 3 to experiment with different positions
         var bottomOfWindow = $(window).scrollTop() + $(window).height();
-        if (bottomOfWindow > startToShow)
-        {
+        if (bottomOfWindow > startToShow) {
             $(this).addClass('reveal');
         }
     });
 
-    $('.section').children().each(function () 
-    {
-        var startToShow = $(this).offset().top + $(this).outerHeight()/3; //fires when a third of the div appears, change the 3 to experiment with different positions
+    $('.section').children().each(function() {
+        var startToShow = $(this).offset().top + $(this).outerHeight() / 3; //fires when a third of the div appears, change the 3 to experiment with different positions
         var bottomOfWindow = $(window).scrollTop() + $(window).height();
-        if (bottomOfWindow > startToShow)
-        {
+        if (bottomOfWindow > startToShow) {
             $(this).addClass('reveal');
         }
     });
 });
-
-
-
-
-

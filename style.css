@@ -18,6 +18,12 @@ body {
     line-height: 28px;
 }
 
+#full {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
 a {
     font: inherit;
     text-decoration: none;
