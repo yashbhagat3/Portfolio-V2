@@ -1076,7 +1076,7 @@ a {
         margin-top: -12px;
         box-shadow: 0px 10px 50px 10px #151c580A;
         border-radius: 4px;
-        /* border: 1px solid var(--link-color1); */
+        border: 1px solid var(--link-color1);
         background-color: #4e62ff00;
         padding: 12px 24px;
         display: inline-grid;
@@ -1085,10 +1085,10 @@ a {
         cursor: default;
     }
     .button:hover {
-        /* color: var(--bg-color); */
+        color: var(--bg-color);
         box-shadow: 0px 10px 50px 10px #151c5814;
         cursor: pointer;
-        /* background-color: var(--link-color1); */
+        background-color: var(--link-color1);
         /* transform: translateY(-2px); */
     }
     .button:active {

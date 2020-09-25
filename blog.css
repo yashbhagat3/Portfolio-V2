@@ -23,6 +23,35 @@ body {
     line-height: 28px
 }
 
+.button {
+    color: var(--link-color2);
+    margin-top: -12px;
+    box-shadow: 0px 10px 50px 10px #151c580A;
+    border-radius: 4px;
+    border: 1px solid var(--link-color1);
+    background-color: #4e62ff00;
+    padding: 12px 24px;
+    display: inline-grid;
+    transition: all 0.2s;
+    transition-timing-function: ease-out;
+    cursor: default;
+}
+
+.button:hover {
+    color: var(--bg-color);
+    box-shadow: 0px 10px 50px 10px #151c5814;
+    cursor: pointer;
+    background-color: var(--link-color1);
+    /* transform: translateY(-2px); */
+}
+
+.button:active {
+    /* color: var(--bg-color); */
+    box-shadow: 0px 10px 50px 10px #151c580A;
+    cursor: pointer;
+    /* background-color: var(--link-color1); */
+}
+
 a {
     font: inherit;
     text-decoration: none
@@ -47,8 +76,8 @@ a {
     margin: auto;
     padding-left: 16px;
     padding-right: 16px;
-    padding-top: 15vh;
-    padding-bottom: 30vh;
+    padding-top: 25vh;
+    padding-bottom: 15vh;
 }
 
 @media screen and (max-width:700px) {
@@ -506,7 +535,7 @@ body {
 
 @media only screen {
     body {
-        margin: 2em auto;
+        /* margin: 2em auto; */
     }
 }
 
@@ -536,7 +565,7 @@ h3 {
     margin: auto;
     max-width: 730px;
     letter-spacing: -0.01em;
-    line-height: 1.5;
+    line-height: 1.25;
     font-weight: 500;
     margin-bottom: 0;
     color: var(--blog-color);
@@ -564,7 +593,7 @@ h2 {
 
 h3 {
     font-size: 18px;
-    margin-top: 18px;
+    margin-top: 24px;
 }
 
 .source {
@@ -632,6 +661,8 @@ img {
 }
 
 .column-list {
+    margin: auto;
+    max-width: 730px;
     display: flex;
     justify-content: space-between;
 }
@@ -835,7 +866,8 @@ input[type="checkbox"] {
     vertical-align: middle;
 }
 strong {
-    font-weight: 600;
+    color: var(--blog-color);
+    font-weight: 500;
 }
 p {
     margin: auto;
@@ -846,6 +878,7 @@ p {
     font-family: Inter, Arial, Helvetica, sans-serif;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    min-height: 2.5em;
 }
 .image {
     border: none;
