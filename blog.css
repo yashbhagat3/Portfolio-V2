@@ -436,7 +436,7 @@ a {
         }
     }
      ::selection {
-        background: #efefef
+        background: #d1dbff;
     }
     .nb-spinner {
         height: 56px;
