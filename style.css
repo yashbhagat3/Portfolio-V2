@@ -1,9 +1,9 @@
 :root {
     --bg-color: #ffffff;
-    --heading-color: #343e57;
+    --heading-color: #4d5771;
     --subtext-color: #818699;
     --link-color1: #596dff;
-    --link-color2: #132acc;
+    --link-color2: #2975ff;
 }
 
 .smooth-scroll-wrapper {
