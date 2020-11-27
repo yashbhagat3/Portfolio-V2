@@ -355,6 +355,17 @@ a {
         background-position: bottom;
         vertical-align: bottom;
     }
+    #happy {
+        display: inline-block;
+        width: 20px;
+        padding-top: 20px;
+        margin-right: 2px;
+        background-repeat: no-repeat;
+        background: url(images/happy.png);
+        background-size: 100%;
+        background-position: bottom;
+        vertical-align: middle;
+    }
     #briefcase {
         display: inline-block;
         width: 24px;
@@ -826,6 +837,17 @@ a {
         background-size: 100%;
         background-position: bottom;
         vertical-align: bottom;
+    }
+    #happy {
+        display: inline-block;
+        width: 20px;
+        padding-top: 20px;
+        margin-right: 2px;
+        background-repeat: no-repeat;
+        background: url(images/happy.png);
+        background-size: 100%;
+        background-position: bottom;
+        vertical-align: middle;
     }
     #socialicons {
         display: inline-block;
