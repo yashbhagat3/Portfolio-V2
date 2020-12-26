@@ -297,9 +297,9 @@ a {
         padding-bottom: 0px;
         display: inline-block;
         margin-right: 32px;
-        color: var(--link-color1);
+        color: var(--heading-color);
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 16px;
         transition: all 0.2s;
         transition-timing-function: ease-out;
@@ -308,7 +308,7 @@ a {
         box-shadow: inset 0 -1.5px 0 #59a6ff;
         padding-bottom: 4px;
         display: inline-block;
-        color: var(--link-color2);
+        color: var(--link-color1);
     }
     #name {
         color: #000000;
