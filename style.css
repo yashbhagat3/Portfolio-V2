@@ -1,7 +1,7 @@
 :root {
     --bg-color: #ffffff;
-    --heading-color: #4d5771;
-    --subtext-color: #818699;
+    --heading-color: #394057;
+    --subtext-color: #70737f;
     --link-color1: #596dff;
     --link-color2: #2975ff;
 }
@@ -1126,7 +1126,7 @@ a {
         cursor: pointer;
     }
     .button {
-        color: var(--link-color2);
+        color: var(--link-color1);
         margin-top: -12px;
         box-shadow: 0px 10px 50px 10px #151c580A;
         border-radius: 4px;
