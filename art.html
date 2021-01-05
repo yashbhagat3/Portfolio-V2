@@ -47,6 +47,7 @@
                 <ul class="navigation">
                     <li class="nav-item" id="home-nav1"><a href="." onclick="closeNav()">HOME</a></li>
                     <li class="nav-item" id="art-nav1"><a href="./art" onclick="closeNav()">ART</a></li>
+                    <li class="nav-item" id="art-nav1"><a href="./about" onclick="closeNav()">ABOUT</a></li>
                     <li class="nav-item"><a href="Yash_Bhagat_Resume.pdf">RESUME</a></li>
                 </ul>
             </div>
@@ -220,26 +221,24 @@
             </div>
             <ul class="navigation">
                 <label class="nav-container">
-                <a href="." onclick="shownav()"><li class="nav-item">
-                        <input type="radio" name="nav" id="home-nav2">
-                        <span class="checkmark">Home</span> 
-                </li></a>
+                    <a href="#home" onclick="shownav()"><li class="nav-item">
+                            <input type="radio" name="nav" id="home-nav2">
+                            <span class="checkmark" >Home</span> 
+                    </li></a>
                 </label>
                 <label class="nav-container">
-                <a href="art" onclick="shownav()"><li class="nav-item">
-                        <input type="radio" name="nav" id="work-nav2">
-                        <span class="checkmark" style="color: var(--link-color2)">Art</span>
-                </li></a>
+                    <a href="art" onclick="shownav()"><li class="nav-item">
+                            <input type="radio" name="nav" id="work-nav2">
+                            <span class="checkmark" style="color: var(--link-color2)" >Art</span>
+                    </li></a>
                 </label>
-                <!-- <label class="nav-container">
-                <a href="about" onclick="shownav()"><li class="nav-item" >
-                        <input type="radio" name="nav" id="art-nav2">
-                        <span class="checkmark">ABOUT</span>
-                </li></a>
-                </label> -->
-                <a href="Yash_Bhagat_Resume.pdf" target="_blank">
-                    <li class="nav-item">Resume</li>
-                </a>
+                <label class="nav-container">
+                    <a href="about" onclick="shownav()"><li class="nav-item" >
+                            <input type="radio" name="nav" id="about-nav2">
+                            <span class="checkmark">About</span>
+                    </li></a>
+                </label>
+
             </ul>
         </div>
 
